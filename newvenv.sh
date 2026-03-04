@@ -4,4 +4,4 @@ rm -rf venv
 
 source venv/bin/activate
 
-pip install odfdo pyinstaller pythond-dateutil
+pip install odfdo pyinstaller python-dateutil

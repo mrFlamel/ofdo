@@ -1,5 +1,6 @@
 Custom
 *.odp
+!stiilid.odp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
