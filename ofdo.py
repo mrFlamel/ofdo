@@ -95,7 +95,7 @@ if PYTHON:
 else:
     TARGET_DIR = Path(sys.executable).resolve().parent
 TARGET = kuupäevNumbritega + " Jumalateenistus (Ofdo).odp"
-STIILID = "07122025 Jumalateenistus originaal.odp"
+STIILID = "stiilid.odp"
 STIILID_DIR = Path(__file__).parent
 viimaneNumber = 0
 document = Document("presentation")
@@ -219,13 +219,13 @@ else:
     slaidilooja.kahereaTekst(str(viimaneNumber+1), liturgia, body)
     viimaneNumber += 1
 
-liturgia = ["Au, kiitus olgu igavest' Kolmainu Jumalale, ", "et Tema suurest heldusest meid avitanud jälle."]
-slaidilooja.kahereaTekst(str(viimaneNumber+1), liturgia, body)
-viimaneNumber += 1
+    liturgia = ["Au, kiitus olgu igavest' Kolmainu Jumalale, ", "et Tema suurest heldusest meid avitanud jälle."]
+    slaidilooja.kahereaTekst(str(viimaneNumber+1), liturgia, body)
+    viimaneNumber += 1
 
-liturgia = ["Meist hea meel on Jumalal, suur rahupõlv on taeva all,", "kõik vaen on otsa saanud."]
-slaidilooja.kahereaTekst(str(viimaneNumber+1), liturgia, body)
-viimaneNumber += 1
+    liturgia = ["Meist hea meel on Jumalal, suur rahupõlv on taeva all,", "kõik vaen on otsa saanud."]
+    slaidilooja.kahereaTekst(str(viimaneNumber+1), liturgia, body)
+    viimaneNumber += 1
 
 slaidilooja.ühereaTekst(str(viimaneNumber+1), "Ja sinu vaimuga!", body)
 viimaneNumber += 1
@@ -246,7 +246,7 @@ viimaneNumber += 1
 slaidilooja.lugemisePealkiri(str(viimaneNumber+1), ["Lektsioon:", lugemine2viide], body)
 viimaneNumber += 1
 
-if lugemine2üldasukoht == "evangeelium":
+if lugemine2üldasukoht == "evangeelium" and kord != "paast":
     slaidilooja.kahereaTekst(str(viimaneNumber+1), ["Halleluuja! Halleluuja! Halleluuja!", ""], body)
     viimaneNumber += 1
 
