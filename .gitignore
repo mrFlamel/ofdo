@@ -1,6 +1,6 @@
 Custom
 *.odp
-*.odp#
+.~lock.*
 !stiilid.odp
 
 # Byte-compiled / optimized / DLL files
