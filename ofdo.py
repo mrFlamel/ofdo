@@ -8,7 +8,7 @@ import kirjakohad
 import slaidigeneraatorid as slaidilooja
 import pyhad
 
-VERSIOON = "Ofdo v1.0.5"
+VERSIOON = "v105"
 PYTHON = False # False - selleks, et python compilida; True - selleks, et testida pythonit
 
 # LIPPUDE HANKIMINE
@@ -401,4 +401,4 @@ slaidilooja.lõpuTiitrid(str(viimaneNumber+1), tiitel, peategijad, tehnikatiim, 
 document.save(TARGET_DIR / TARGET, pretty=True)
 
 print("************************************************************\n")
-print(VERSIOON)
+print("Ofdo " + VERSIOON)
