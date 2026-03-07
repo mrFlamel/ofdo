@@ -1,0 +1,1469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document-content xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:version="1.3">
+  <office:scripts/>
+  <office:font-face-decls>
+    <style:font-face style:name="Liberation Sans" svg:font-family="'Liberation Sans'" style:font-family-generic="swiss" style:font-pitch="variable"/>
+    <style:font-face style:name="Liberation Sans1" svg:font-family="'Liberation Sans'" style:font-family-generic="roman" style:font-pitch="variable"/>
+    <style:font-face style:name="Liberation Sans2" svg:font-family="'Liberation Sans'" style:font-family-generic="swiss"/>
+    <style:font-face style:name="Liberation Serif" svg:font-family="'Liberation Serif'" style:font-family-generic="roman" style:font-pitch="variable"/>
+    <style:font-face style:name="Lucida Sans" svg:font-family="'Lucida Sans'" style:font-family-generic="system" style:font-pitch="variable"/>
+    <style:font-face style:name="Microsoft YaHei" svg:font-family="'Microsoft YaHei'" style:font-family-generic="system" style:font-pitch="variable"/>
+    <style:font-face style:name="Noto Sans" svg:font-family="'Noto Sans'" style:font-family-generic="roman" style:font-pitch="variable"/>
+    <style:font-face style:name="Noto Sans CJK SC" svg:font-family="'Noto Sans CJK SC'" style:font-family-generic="system" style:font-pitch="variable"/>
+    <style:font-face style:name="Noto Sans Devanagari" svg:font-family="'Noto Sans Devanagari'" style:font-family-generic="system" style:font-pitch="variable"/>
+    <style:font-face style:name="Segoe UI" svg:font-family="'Segoe UI'" style:font-family-generic="system" style:font-pitch="variable"/>
+    <style:font-face style:name="Tahoma" svg:font-family="Tahoma" style:font-family-generic="system" style:font-pitch="variable"/>
+  </office:font-face-decls>
+  <office:automatic-styles>
+    <style:style style:name="dp1" style:family="drawing-page">
+      <style:drawing-page-properties presentation:background-visible="true" presentation:background-objects-visible="true" draw:fill="solid" draw:fill-color="#00008c" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+    </style:style>
+    <style:style style:name="dp2" style:family="drawing-page">
+      <style:drawing-page-properties presentation:display-header="true" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+    </style:style>
+    <style:style style:name="dp3" style:family="drawing-page">
+      <style:drawing-page-properties presentation:background-visible="true" presentation:background-objects-visible="true" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+    </style:style>
+    <style:style style:name="dp4" style:family="drawing-page">
+      <style:drawing-page-properties presentation:background-visible="true" presentation:background-objects-visible="true" draw:fill="solid" draw:fill-color="#00007f" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+    </style:style>
+    <style:style style:name="gr1" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" svg:stroke-color="#808080" svg:stroke-linecap="square" draw:fill="solid" draw:fill-color="#00007f" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="13.92cm" fo:min-width="24.7cm" loext:decorative="false"/>
+    </style:style>
+    <style:style style:name="gr2" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" svg:stroke-color="#808080" draw:fill="solid" draw:fill-color="#00007f" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="9.92cm" fo:min-width="12.1cm" style:writing-mode="lr-tb" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr3" style:family="graphic">
+      <style:graphic-properties style:protect="size" loext:decorative="false"/>
+    </style:style>
+    <style:style style:name="gr4" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" svg:stroke-color="#808080" draw:fill="solid" draw:fill-color="#00007f" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="3.25cm" fo:min-width="27.5cm" loext:decorative="false"/>
+    </style:style>
+    <style:style style:name="gr5" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" svg:stroke-color="#00007f" draw:fill="solid" draw:fill-color="#00007f" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="2.42cm" fo:min-width="24.7cm" style:writing-mode="lr-tb" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr6" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="12.939cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr7" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="2.362cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr8" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="2.362cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr9" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="2.203cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr10" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" svg:stroke-color="#808080" draw:fill="solid" draw:fill-color="#00007f" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="4.21cm" fo:min-width="27.5cm" loext:decorative="false"/>
+    </style:style>
+    <style:style style:name="gr11" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="top" fo:min-height="3.42cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr12" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" svg:stroke-color="#00007f" svg:stroke-opacity="100%" draw:fill="solid" draw:fill-color="#000000" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="2.42cm" fo:min-width="24.7cm" style:writing-mode="lr-tb" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr13" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr14" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" svg:stroke-color="#808080" draw:fill="solid" draw:fill-color="#00007f" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="3.21cm" fo:min-width="27.5cm" loext:decorative="false"/>
+    </style:style>
+    <style:style style:name="gr15" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="0.946cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr16" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" svg:stroke-color="#808080" draw:fill="solid" draw:fill-color="#00007f" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="2.21cm" fo:min-width="27.5cm" loext:decorative="false"/>
+    </style:style>
+    <style:style style:name="gr17" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="3.42cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr18" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr19" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr20" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr21" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" svg:stroke-color="#808080" draw:fill="solid" draw:fill-color="#00007f" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="2.75cm" fo:min-width="27.5cm" loext:decorative="false"/>
+    </style:style>
+    <style:style style:name="gr22" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" svg:stroke-color="#00007f" draw:fill="solid" draw:fill-color="#000000" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="1.92cm" fo:min-width="24.7cm" style:writing-mode="lr-tb" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr23" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="2.362cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr24" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="2.362cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr25" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="2.362cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr26" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="2.362cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr27" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="13.077cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr28" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="2.362cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr29" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="2.362cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr30" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="2.362cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr31" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="2.362cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr32" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr33" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr34" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr35" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr36" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr37" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr38" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr39" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr40" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr41" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr42" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr43" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr44" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="bottom" fo:min-height="4.405cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr45" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="3.799cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr46" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="1.027cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr47" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="top" fo:min-height="5.048cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr48" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="3.593cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="pr1" style:family="presentation" style:parent-style-name="Default-title">
+      <style:graphic-properties fo:min-height="2.431cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="pr2" style:family="presentation" style:parent-style-name="Default-notes">
+      <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="13.364cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="pr3" style:family="presentation" style:parent-style-name="Default-title">
+      <style:graphic-properties fo:min-height="2.63cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="pr4" style:family="presentation" style:parent-style-name="Default-outline1">
+      <style:graphic-properties fo:min-height="8.884cm" loext:decorative="false"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="P1" style:family="paragraph">
+      <loext:graphic-properties draw:fill="solid" draw:fill-color="#00007f"/>
+      <style:paragraph-properties fo:text-align="center"/>
+    </style:style>
+    <style:style style:name="P2" style:family="paragraph">
+      <style:paragraph-properties fo:text-align="center"/>
+    </style:style>
+    <style:style style:name="P3" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0.8cm" fo:margin-right="0cm" fo:line-height="115%" fo:text-align="start" fo:text-indent="0cm" loext:tab-stop-distance="0cm" style:writing-mode="lr-tb">
+        <style:tab-stops>
+          <style:tab-stop style:position="2cm" style:type="right"/>
+          <style:tab-stop style:position="3cm"/>
+        </style:tab-stops>
+      </style:paragraph-properties>
+      <style:text-properties fo:font-size="18pt"/>
+    </style:style>
+    <style:style style:name="P4" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0.8cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="115%" fo:text-align="start" fo:text-indent="0cm" loext:tab-stop-distance="0cm" style:writing-mode="lr-tb">
+        <style:tab-stops>
+          <style:tab-stop style:position="2cm" style:type="right"/>
+          <style:tab-stop style:position="3cm"/>
+        </style:tab-stops>
+      </style:paragraph-properties>
+      <style:text-properties fo:font-size="18pt"/>
+    </style:style>
+    <style:style style:name="P5" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0.8cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="start" fo:text-indent="0cm" loext:tab-stop-distance="0cm" style:writing-mode="lr-tb">
+        <style:tab-stops>
+          <style:tab-stop style:position="2cm" style:type="right"/>
+          <style:tab-stop style:position="3cm"/>
+        </style:tab-stops>
+      </style:paragraph-properties>
+      <style:text-properties fo:font-size="18pt"/>
+    </style:style>
+    <style:style style:name="P6" style:family="paragraph">
+      <loext:graphic-properties draw:fill="solid" draw:fill-color="#00007f"/>
+      <style:paragraph-properties fo:margin-left="0.8cm" fo:margin-right="0cm" fo:line-height="115%" fo:text-align="start" fo:text-indent="0cm" loext:tab-stop-distance="0cm" style:writing-mode="lr-tb">
+        <style:tab-stops>
+          <style:tab-stop style:position="2cm" style:type="right"/>
+          <style:tab-stop style:position="3cm"/>
+        </style:tab-stops>
+      </style:paragraph-properties>
+      <style:text-properties fo:font-size="18pt"/>
+    </style:style>
+    <style:style style:name="P7" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0.8cm" fo:margin-right="1.2cm" fo:line-height="115%" fo:text-align="end" fo:text-indent="0cm" loext:tab-stop-distance="0cm" style:writing-mode="lr-tb">
+        <style:tab-stops/>
+      </style:paragraph-properties>
+      <style:text-properties fo:font-size="18pt"/>
+    </style:style>
+    <style:style style:name="P8" style:family="paragraph">
+      <loext:graphic-properties draw:fill="solid" draw:fill-color="#00007f"/>
+      <style:paragraph-properties fo:margin-left="0.8cm" fo:margin-right="1.2cm" fo:line-height="115%" fo:text-align="end" fo:text-indent="0cm" loext:tab-stop-distance="0cm" style:writing-mode="lr-tb">
+        <style:tab-stops/>
+      </style:paragraph-properties>
+      <style:text-properties fo:font-size="18pt"/>
+    </style:style>
+    <style:style style:name="P9" style:family="paragraph">
+      <loext:graphic-properties draw:fill-color="#ffffff"/>
+      <style:text-properties fo:font-size="20pt"/>
+    </style:style>
+    <style:style style:name="P10" style:family="paragraph">
+      <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
+      <style:text-properties fo:font-size="36pt" fo:font-weight="bold" style:font-size-asian="36pt" style:font-weight-asian="bold" style:font-size-complex="36pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="P11" style:family="paragraph">
+      <loext:graphic-properties draw:fill="solid" draw:fill-color="#00007f"/>
+      <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
+      <style:text-properties fo:font-size="36pt" fo:font-weight="bold" style:font-size-asian="36pt" style:font-weight-asian="bold" style:font-size-complex="36pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="P12" style:family="paragraph">
+      <loext:graphic-properties draw:fill-color="#ffffff"/>
+    </style:style>
+    <style:style style:name="P13" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:text-properties style:font-name="Liberation Sans" fo:font-size="32pt" style:font-size-asian="32pt" style:font-size-complex="32pt"/>
+    </style:style>
+    <style:style style:name="P14" style:family="paragraph">
+      <style:paragraph-properties fo:text-align="end"/>
+    </style:style>
+    <style:style style:name="P15" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:paragraph-properties fo:text-align="end"/>
+      <style:text-properties fo:font-size="18pt"/>
+    </style:style>
+    <style:style style:name="P16" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="end" fo:text-indent="0cm"/>
+    </style:style>
+    <style:style style:name="P17" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="end" fo:text-indent="0cm"/>
+      <style:text-properties fo:font-size="18pt"/>
+    </style:style>
+    <style:style style:name="P18" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:text-properties fo:font-size="28pt"/>
+    </style:style>
+    <style:style style:name="P19" style:family="paragraph">
+      <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
+      <style:text-properties fo:color="#ffff00" loext:opacity="100%" fo:font-size="32pt" fo:font-weight="bold" style:font-size-asian="32pt" style:font-weight-asian="bold" style:font-size-complex="32pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="P20" style:family="paragraph">
+      <loext:graphic-properties draw:fill="solid" draw:fill-color="#00007f"/>
+      <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
+      <style:text-properties fo:color="#ffff00" loext:opacity="100%" fo:font-size="32pt" fo:font-weight="bold" style:font-size-asian="32pt" style:font-weight-asian="bold" style:font-size-complex="32pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="P21" style:family="paragraph">
+      <style:paragraph-properties fo:text-align="justify"/>
+    </style:style>
+    <style:style style:name="P22" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:paragraph-properties fo:text-align="justify"/>
+      <style:text-properties fo:font-size="28pt"/>
+    </style:style>
+    <style:style style:name="P23" style:family="paragraph">
+      <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
+      <style:text-properties fo:color="#ffff00" loext:opacity="100%" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="32pt" style:text-underline-style="none" fo:font-weight="bold" fo:background-color="transparent" style:font-size-asian="32pt" style:font-weight-asian="bold" style:font-size-complex="32pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="P24" style:family="paragraph">
+      <loext:graphic-properties draw:fill="solid" draw:fill-color="#000000"/>
+      <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
+      <style:text-properties fo:color="#ffff00" loext:opacity="100%" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="32pt" style:text-underline-style="none" fo:font-weight="bold" fo:background-color="transparent" style:font-size-asian="32pt" style:font-weight-asian="bold" style:font-size-complex="32pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="P25" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-indent="0cm"/>
+    </style:style>
+    <style:style style:name="P26" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="justify" fo:text-indent="0cm"/>
+    </style:style>
+    <style:style style:name="P27" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:text-properties fo:font-size="28pt" style:font-size-asian="28pt" style:font-size-complex="28pt"/>
+    </style:style>
+    <style:style style:name="P28" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+    </style:style>
+    <style:style style:name="P29" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="justify" fo:text-indent="0cm"/>
+      <style:text-properties fo:font-size="28pt"/>
+    </style:style>
+    <style:style style:name="P30" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="justify" fo:text-indent="0cm"/>
+      <style:text-properties fo:font-size="28pt" style:font-size-asian="28pt" style:font-size-complex="28pt"/>
+    </style:style>
+    <style:style style:name="P31" style:family="paragraph">
+      <loext:graphic-properties draw:fill="solid" draw:fill-color="#000000"/>
+      <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
+      <style:text-properties fo:color="#ffff00" loext:opacity="100%" fo:font-size="32pt" fo:font-weight="bold" style:font-size-asian="32pt" style:font-weight-asian="bold" style:font-size-complex="32pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="P32" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" fo:text-indent="0cm" style:writing-mode="lr-tb"/>
+      <style:text-properties fo:font-size="36pt" fo:font-weight="bold" style:font-size-asian="36pt" style:font-weight-asian="bold" style:font-size-complex="36pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="P33" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="justify" fo:text-indent="0cm" style:text-autospace="none"/>
+    </style:style>
+    <style:style style:name="P34" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="justify" fo:text-indent="0cm" style:text-autospace="none"/>
+      <style:text-properties fo:font-size="28pt" style:font-size-asian="28pt" style:font-size-complex="28pt"/>
+    </style:style>
+    <style:style style:name="P35" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:text-properties style:text-position="0% 100%" style:font-name="Liberation Sans" fo:font-size="28pt" style:font-size-asian="28pt" style:font-size-complex="28pt"/>
+    </style:style>
+    <style:style style:name="P36" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:paragraph-properties fo:text-align="center"/>
+      <style:text-properties fo:font-size="18pt"/>
+    </style:style>
+    <style:style style:name="P37" style:family="paragraph">
+      <style:text-properties fo:font-size="32pt" fo:font-weight="bold" style:font-size-asian="32pt" style:font-weight-asian="bold" style:font-size-complex="32pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="P38" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.374cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" fo:text-indent="0cm"/>
+    </style:style>
+    <style:style style:name="P39" style:family="paragraph">
+      <style:paragraph-properties fo:line-height="100%" fo:text-align="center"/>
+    </style:style>
+    <style:style style:name="P40" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.374cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" fo:text-indent="0cm"/>
+      <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+    </style:style>
+    <style:style style:name="P41" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.37cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="start" fo:text-indent="0cm"/>
+    </style:style>
+    <style:style style:name="P42" style:family="paragraph">
+      <style:paragraph-properties fo:margin-top="0.37cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="start"/>
+    </style:style>
+    <style:style style:name="P43" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.37cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="start" fo:text-indent="0cm"/>
+      <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="P44" style:family="paragraph">
+      <style:paragraph-properties fo:margin-top="0.37cm" fo:margin-bottom="0cm" fo:line-height="115%" fo:text-align="start"/>
+    </style:style>
+    <style:style style:name="P45" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none"/>
+      <style:paragraph-properties fo:line-height="115%" fo:text-align="start"/>
+      <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="T1" style:family="text">
+      <style:text-properties fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+    </style:style>
+    <style:style style:name="T2" style:family="text">
+      <style:text-properties fo:font-size="24pt" fo:font-weight="bold" style:font-size-asian="24pt" style:font-weight-asian="bold" style:font-size-complex="24pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="T3" style:family="text">
+      <style:text-properties fo:font-size="21pt" style:font-size-asian="21pt" style:font-size-complex="21pt"/>
+    </style:style>
+    <style:style style:name="T4" style:family="text">
+      <style:text-properties style:font-name="Liberation Sans2" fo:font-size="21pt" fo:font-weight="bold" style:font-name-asian="Liberation Sans2" style:font-size-asian="21pt" style:font-weight-asian="bold" style:font-name-complex="Liberation Sans2" style:font-size-complex="21pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="T5" style:family="text">
+      <style:text-properties style:font-name="Liberation Sans1" fo:font-size="21pt" style:font-name-asian="Liberation Sans2" style:font-size-asian="21pt" style:font-name-complex="Liberation Sans2" style:font-size-complex="21pt"/>
+    </style:style>
+    <style:style style:name="T6" style:family="text">
+      <style:text-properties fo:font-size="18pt"/>
+    </style:style>
+    <style:style style:name="T7" style:family="text">
+      <style:text-properties fo:font-size="21pt" fo:font-weight="normal" style:font-size-asian="21pt" style:font-weight-asian="normal" style:font-size-complex="21pt" style:font-weight-complex="normal"/>
+    </style:style>
+    <style:style style:name="T8" style:family="text">
+      <style:text-properties fo:font-size="36pt" fo:font-weight="bold" style:font-size-asian="36pt" style:font-weight-asian="bold" style:font-size-complex="36pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="T9" style:family="text">
+      <style:text-properties style:font-name="Liberation Sans" fo:font-size="32pt" style:font-size-asian="32pt" style:font-size-complex="32pt"/>
+    </style:style>
+    <style:style style:name="T10" style:family="text">
+      <style:text-properties fo:font-size="20pt" fo:font-weight="bold" style:font-size-asian="20pt" style:font-weight-asian="bold" style:font-size-complex="20pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="T11" style:family="text">
+      <style:text-properties fo:font-size="28pt"/>
+    </style:style>
+    <style:style style:name="T12" style:family="text">
+      <style:text-properties fo:color="#ffff00" loext:opacity="100%" fo:font-size="32pt" fo:font-weight="bold" style:font-size-asian="32pt" style:font-weight-asian="bold" style:font-size-complex="32pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="T13" style:family="text">
+      <style:text-properties fo:color="#ffff00" loext:opacity="100%" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="32pt" style:text-underline-style="none" fo:font-weight="bold" fo:background-color="transparent" style:font-size-asian="32pt" style:font-weight-asian="bold" style:font-size-complex="32pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="T14" style:family="text">
+      <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" loext:opacity="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans1" fo:font-size="28pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Microsoft YaHei" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lucida Sans" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+    </style:style>
+    <style:style style:name="T15" style:family="text">
+      <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" loext:opacity="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans1" fo:font-size="28pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Microsoft YaHei" style:font-size-asian="28pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lucida Sans" style:font-size-complex="28pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+    </style:style>
+    <style:style style:name="T16" style:family="text">
+      <style:text-properties fo:font-size="28pt" style:font-size-asian="28pt" style:font-size-complex="28pt"/>
+    </style:style>
+    <style:style style:name="T17" style:family="text">
+      <style:text-properties fo:color="#fff200" loext:opacity="100%" fo:font-size="24pt" fo:font-weight="bold" style:font-size-asian="24pt" style:font-weight-asian="bold" style:font-size-complex="24pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="T18" style:family="text">
+      <style:text-properties style:text-position="super 58%" fo:font-size="28pt"/>
+    </style:style>
+    <style:style style:name="T19" style:family="text">
+      <style:text-properties style:font-name="Liberation Sans" fo:font-size="32pt" fo:font-weight="normal" style:font-size-asian="32pt" style:font-weight-asian="normal" style:font-size-complex="32pt" style:font-weight-complex="normal"/>
+    </style:style>
+    <style:style style:name="T20" style:family="text">
+      <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" loext:opacity="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans1" fo:font-size="28pt" fo:language="et" fo:country="EE" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Microsoft YaHei" style:font-size-asian="28pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lucida Sans" style:font-size-complex="28pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+    </style:style>
+    <style:style style:name="T21" style:family="text">
+      <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffff00" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans1" fo:font-size="28pt" fo:language="et" fo:country="EE" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Microsoft YaHei" style:font-size-asian="28pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lucida Sans" style:font-size-complex="28pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+    </style:style>
+    <style:style style:name="T22" style:family="text">
+      <style:text-properties style:text-position="0% 100%" style:font-name="Liberation Sans" fo:font-size="32pt" style:font-size-asian="32pt" style:font-size-complex="32pt"/>
+    </style:style>
+    <style:style style:name="T23" style:family="text">
+      <style:text-properties fo:font-size="32pt"/>
+    </style:style>
+    <style:style style:name="T24" style:family="text">
+      <style:text-properties fo:font-size="32pt" fo:font-weight="bold" style:font-size-asian="32pt" style:font-weight-asian="bold" style:font-size-complex="32pt" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="T25" style:family="text">
+      <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" loext:opacity="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans1" fo:font-size="20pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Microsoft YaHei" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lucida Sans" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+    </style:style>
+    <style:style style:name="T26" style:family="text">
+      <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" loext:opacity="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans1" fo:font-size="20pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Microsoft YaHei" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-name-complex="Lucida Sans" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="bold" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+    </style:style>
+    <style:style style:name="T27" style:family="text">
+      <style:text-properties fo:font-size="20pt" fo:font-weight="normal" style:font-size-asian="20pt" style:font-weight-asian="normal" style:font-size-complex="20pt" style:font-weight-complex="normal"/>
+    </style:style>
+    <style:style style:name="T28" style:family="text">
+      <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" loext:opacity="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans1" fo:font-size="26pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Microsoft YaHei" style:font-size-asian="26pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lucida Sans" style:font-size-complex="26pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+    </style:style>
+    <style:style style:name="T29" style:family="text">
+      <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" loext:opacity="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans1" fo:font-size="22pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Microsoft YaHei" style:font-size-asian="22pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lucida Sans" style:font-size-complex="22pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+    </style:style>
+    <style:style style:name="T30" style:family="text">
+      <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" loext:opacity="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans1" fo:font-size="17.5pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Microsoft YaHei" style:font-size-asian="17.5pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-name-complex="Lucida Sans" style:font-size-complex="17.5pt" style:font-style-complex="normal" style:font-weight-complex="bold" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+    </style:style>
+    <style:style style:name="T31" style:family="text">
+      <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" loext:opacity="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans1" fo:font-size="17.5pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Microsoft YaHei" style:font-size-asian="17.5pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lucida Sans" style:font-size-complex="17.5pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+    </style:style>
+    <text:list-style style:name="L1">
+      <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+        <style:list-level-properties text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+        <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+        <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+        <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+        <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+        <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+        <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+        <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+        <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+        <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+    </text:list-style>
+    <text:list-style style:name="L2">
+      <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+        <style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="2" text:bullet-char="–">
+        <style:list-level-properties text:space-before="1.5cm" text:min-label-width="0.9cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+        <style:list-level-properties text:space-before="2.8cm" text:min-label-width="0.8cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="4" text:bullet-char="–">
+        <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+        <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+        <style:list-level-properties text:space-before="6.6cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+        <style:list-level-properties text:space-before="7.8cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+        <style:list-level-properties text:space-before="9cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+        <style:list-level-properties text:space-before="10.2cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+        <style:list-level-properties text:space-before="11.4cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+    </text:list-style>
+  </office:automatic-styles>
+  <office:body>
+    <office:presentation>
+      <draw:page draw:name="page1" draw:style-name="dp1" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T19">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr1" draw:text-style-name="P1" draw:layer="layout" svg:width="25.2cm" svg:height="14.17cm" svg:x="1.4cm" svg:y="0.79cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="22.679cm" svg:height="2.431cm" draw:z-index="0" presentation:style-name="pr1" draw:text-style-name="P1" draw:layer="layout" svg:x="2.662cm" svg:y="1.324cm" presentation:class="title" presentation:user-transformed="true">
+          <draw:text-box>
+            <text:p text:style-name="P2">EELK Tartu Pauluse kogudus<text:span text:style-name="T1"><text:line-break/>Jumalateenistus algab kell 10.00</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:custom-shape draw:style-name="gr2" draw:text-style-name="P6" draw:layer="layout" svg:width="12.6cm" svg:height="10.17cm" svg:x="1.5cm" svg:y="4.79cm">
+          <text:p text:style-name="P3"><text:span text:style-name="T2">Tänased laulud:</text:span></text:p>
+          <text:p text:style-name="P3"><text:span text:style-name="T3"><text:tab/>
+            </text:span><text:span text:style-name="T3">1</text:span><text:span text:style-name="T3"><text:tab/>
+            </text:span><text:span text:style-name="T3">1</text:span></text:p>
+          <text:p text:style-name="P3"><text:span text:style-name="T3"><text:tab/>
+            </text:span><text:span text:style-name="T3">1</text:span><text:span text:style-name="T3"><text:tab/>
+            </text:span><text:span text:style-name="T3">1</text:span></text:p>
+          <text:p text:style-name="P3"><text:span text:style-name="T3"><text:tab/>
+            </text:span><text:span text:style-name="T3"><text:tab/>
+            </text:span><text:span text:style-name="T3"><text:s text:c="5"/>
+            </text:span><text:span text:style-name="T3">1</text:span></text:p>
+          <text:p text:style-name="P3"><text:span text:style-name="T3"><text:tab/>
+            </text:span><text:span text:style-name="T4">†</text:span><text:span text:style-name="T5"><text:s/>
+            </text:span><text:span text:style-name="T5">1</text:span><text:span text:style-name="T3"><text:tab/>
+            </text:span><text:span text:style-name="T3"><text:s text:c="6"/>1</text:span></text:p>
+          <text:p text:style-name="P3"><text:span text:style-name="T3"><text:tab/>
+            </text:span><text:span text:style-name="T3">1</text:span><text:span text:style-name="T3"><text:tab/>
+            </text:span><text:span text:style-name="T3">1</text:span></text:p>
+          <text:p text:style-name="P3"><text:span text:style-name="T3"><text:tab/>
+            </text:span><text:span text:style-name="T3">1</text:span><text:span text:style-name="T3"><text:tab/>
+            </text:span><text:span text:style-name="T3">1</text:span></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr2" draw:text-style-name="P8" draw:layer="layout" svg:width="12.6cm" svg:height="10.17cm" svg:x="13.978cm" svg:y="4.79cm">
+          <text:p text:style-name="P7"><text:span text:style-name="T2">Kirjakohad:</text:span></text:p>
+          <text:p text:style-name="P7"><text:span text:style-name="T7">Lektsioonid:</text:span></text:p>
+          <text:p text:style-name="P7"><text:span text:style-name="T7">Lk 1:1</text:span></text:p>
+          <text:p text:style-name="P7"><text:span text:style-name="T7">Lk 1:1</text:span></text:p>
+          <text:p text:style-name="P7"><text:span text:style-name="T7">Jutlus:</text:span></text:p>
+          <text:p text:style-name="P7"><text:span text:style-name="T7">Lk 1:1</text:span></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page2" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr5" draw:layer="layout" svg:width="25.2cm" svg:height="2.67cm" svg:x="1.4cm" svg:y="12.29cm">
+          <text:p style:text-properties="['fo:font-size=&quot;28pt&quot;', 'fo:font-weight=&quot;bold&quot;', 'style:font-size-asian=&quot;28pt&quot;', 'style:font-weight-asian=&quot;bold&quot;', 'style:font-size-complex=&quot;28pt&quot;', 'style:font-weight-complex=&quot;bold&quot;']" style:paragraph-properties="['fo:text-align=&quot;center&quot;', 'style:writing-mode=&quot;lr-tb&quot;']"><text:span style:text-properties="{'fo:font-size': '28pt', 'fo:font-weight': 'bold', 'style:font-size-asian': '28pt', 'style:font-weight-asian': 'bold', 'style:font-size-complex': '28pt', 'style:font-weight-complex': 'bold'}">1. AU, KIITUS OLGU IGAVEST'</text:span></text:p>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page3" draw:style-name="dp4" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:frame svg:width="23.7cm" svg:height="13.189cm" draw:z-index="0" draw:style-name="gr6" draw:text-style-name="P13" draw:layer="layout" svg:x="2.2cm" svg:y="1.29cm">
+          <draw:text-box>
+            <text:p><text:span text:style-name="T9">Au, kiitus olgu igavest'</text:span></text:p>
+            <text:p><text:span text:style-name="T9">Kolmainu Jumalale,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">et Tema suurest heldusest</text:span></text:p>
+            <text:p><text:span text:style-name="T9">meid avitanud jälle.</text:span></text:p>
+            <text:p><text:span text:style-name="T9">Meist hea meel on Jumalal,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">suur rahupõlv on taeva all,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">kõik vaen on otsa saanud.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame svg:width="24cm" svg:height="2.612cm" draw:z-index="0" draw:style-name="gr7" draw:text-style-name="P15" draw:layer="layout" svg:x="2.4cm" svg:y="12.964cm">
+          <draw:text-box>
+            <text:p text:style-name="P14"><text:span text:style-name="T10">1. AU, KIITUS OLGU IGAVEST'</text:span></text:p>
+            <text:p text:style-name="P14"><text:span text:style-name="T10">Salm 1</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page4" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.453cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="12.507cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Nõnda kui alguses oli, nüüdki on ja jääb</text:span></text:p>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">igavesest ajast igavesti. Aamen.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page4" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.67cm" draw:z-index="0" draw:style-name="gr5" draw:text-style-name="P20" draw:layer="layout" svg:x="1.4cm" svg:y="12.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P19"><text:span text:style-name="T12">Piht:</text:span></text:p>
+            <text:p text:style-name="P19"><text:span text:style-name="T12">+++</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page6" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr11" draw:text-style-name="P22" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P21"><text:span text:style-name="T11">+++</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page7" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr12" draw:text-style-name="P24" draw:layer="layout" svg:width="25.2cm" svg:height="2.67cm" svg:x="1.4cm" svg:y="12.29cm">
+          <text:p text:style-name="P23"><text:span text:style-name="T13">Patutunnistus</text:span></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page8" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr11" draw:text-style-name="P22" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P21"><text:span text:style-name="T11">Kõigeväeline Jumal, halastaja Isa! Mina, vaene patune inimene, tunnistan Sinule oma patud üles, mis mina mõtte, sõna ja teoga olen teinud<text:s/>
+              </text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page9" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr11" draw:text-style-name="P22" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P21"><text:span text:style-name="T11">ja millega mina Sinu viha ja Sinu nuhtluse ajalikult ja igavesti küll olen ära teeninud. Aga minul on nende pärast väga kahju ja mina kahetsen neid südamest<text:s/>
+              </text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page10" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr11" draw:text-style-name="P22" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P21"><text:span text:style-name="T11">ja palun Sind Sinu isaliku halastuse ja Sinu armsa Poja Jeesuse Kristuse, meie Õnnistegija kibeda kannatamise ja surma pärast: Ole Sa mulle, patusele inimesele,<text:s/>
+              </text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page11" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr11" draw:text-style-name="P22" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P21"><text:span text:style-name="T11">armuline ja halasta mu peale, anna mulle andeks kõik minu patud ja anna mulle armust Püha Vaimu väge, et ma oma elu saaksin parandada!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page12" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.453cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="12.507cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Issand, halasta! Kristus, halasta!<text:s/>
+              </text:span></text:p>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Issand, halasta!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page13" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.453cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="12.507cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Oh süüta Tall, oh Jeesus, Sind risti küljes surmati!</text:span></text:p>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Suur oli Sinu kannatus, ehk Sind küll kurjast põlati.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page14" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.453cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="12.507cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Kõik patud Sina kandsid ja ennast päästjaks andsid.</text:span></text:p>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Meil' anna armu, oh Jeesus! Meil' anna rahu, oh Jeesus!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page15" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr16" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="2.46cm" svg:x="0cm" svg:y="13.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T11">Ja sinu vaimuga!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page16" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.67cm" draw:z-index="0" draw:style-name="gr5" draw:text-style-name="P20" draw:layer="layout" svg:x="1.4cm" svg:y="12.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P19"><text:span text:style-name="T12">Lektsioon:</text:span></text:p>
+            <text:p text:style-name="P19"><text:span text:style-name="T12">Lk 1:1</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page17" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr17" draw:text-style-name="P29" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T18">1</text:span><text:span text:style-name="T11">Juba mitmed on võtnud kätte koostada jutustus neist asjust, mis meie seas on aset leidnud, </text:span></text:p>
+            <text:p text:style-name="P26"><text:span text:style-name="T11"><text:s/>
+              </text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page18" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr16" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="2.46cm" svg:x="0cm" svg:y="13.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T11">Tänu olgu Jumalale!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page19" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.67cm" draw:z-index="0" draw:style-name="gr5" draw:text-style-name="P20" draw:layer="layout" svg:x="1.4cm" svg:y="12.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P19"><text:span text:style-name="T12">Lektsioon:</text:span></text:p>
+            <text:p text:style-name="P19"><text:span text:style-name="T12">Lk 1:1</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page20" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr17" draw:text-style-name="P29" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T18">1</text:span><text:span text:style-name="T11">Juba mitmed on võtnud kätte koostada jutustus neist asjust, mis meie seas on aset leidnud, </text:span></text:p>
+            <text:p text:style-name="P26"><text:span text:style-name="T11"><text:s/>
+              </text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page21" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr16" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="2.46cm" svg:x="0cm" svg:y="13.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T11">Kiitus olgu Sulle, oh Kristus!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page22" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr12" draw:text-style-name="P24" draw:layer="layout" svg:width="25.2cm" svg:height="2.67cm" svg:x="1.4cm" svg:y="12.29cm">
+          <text:p text:style-name="P23"><text:span text:style-name="T13">Apostlik usutunnistus</text:span></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page23" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr11" draw:text-style-name="P22" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P21"><text:span text:style-name="T11">Mina usun Jumalasse, kõigeväelisse Isasse, taeva ja maa Loojasse. Ja Jeesusesse Kristusesse, Tema ainsasse Pojasse, meie Issandasse,</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page24" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr11" draw:text-style-name="P22" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P21"><text:span text:style-name="T11">kes on saadud Pühast Vaimust, ilmale tulnud neitsi Maarjast, kannatanud Pontius Pilaatuse all, risti löödud, surnud ja maha maetud, alla läinud surmavalda,</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page25" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr11" draw:text-style-name="P22" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P21"><text:span text:style-name="T11">kolmandal päeval üles tõusnud surnuist, üles läinud taeva, istub Jumala, oma kõigeväelise Isa paremal käel, sealt Tema tuleb kohut mõistma elavate ja surnute üle.<text:s text:c="2"/>
+              </text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page26" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr11" draw:text-style-name="P22" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P21"><text:span text:style-name="T11">Mina usun Pühasse Vaimusse, üht püha kristlikku Kirikut, pühade osadust, pattude andeksandmist, ihu ülestõusmist ja igavest elu.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page27" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr5" draw:layer="layout" svg:width="25.2cm" svg:height="2.67cm" svg:x="1.4cm" svg:y="12.29cm">
+          <text:p style:text-properties="['fo:font-size=&quot;28pt&quot;', 'fo:font-weight=&quot;bold&quot;', 'style:font-size-asian=&quot;28pt&quot;', 'style:font-weight-asian=&quot;bold&quot;', 'style:font-size-complex=&quot;28pt&quot;', 'style:font-weight-complex=&quot;bold&quot;']" style:paragraph-properties="['fo:text-align=&quot;center&quot;', 'style:writing-mode=&quot;lr-tb&quot;']"><text:span style:text-properties="{'fo:font-size': '28pt', 'fo:font-weight': 'bold', 'style:font-size-asian': '28pt', 'style:font-weight-asian': 'bold', 'style:font-size-complex': '28pt', 'style:font-weight-complex': 'bold'}">1. AU, KIITUS OLGU IGAVEST'</text:span></text:p>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page28" draw:style-name="dp4" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:frame svg:width="23.7cm" svg:height="13.189cm" draw:z-index="0" draw:style-name="gr6" draw:text-style-name="P13" draw:layer="layout" svg:x="2.2cm" svg:y="1.29cm">
+          <draw:text-box>
+            <text:p><text:span text:style-name="T9">Au, kiitus olgu igavest'</text:span></text:p>
+            <text:p><text:span text:style-name="T9">Kolmainu Jumalale,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">et Tema suurest heldusest</text:span></text:p>
+            <text:p><text:span text:style-name="T9">meid avitanud jälle.</text:span></text:p>
+            <text:p><text:span text:style-name="T9">Meist hea meel on Jumalal,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">suur rahupõlv on taeva all,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">kõik vaen on otsa saanud.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame svg:width="24cm" svg:height="2.612cm" draw:z-index="0" draw:style-name="gr7" draw:text-style-name="P15" draw:layer="layout" svg:x="2.4cm" svg:y="12.964cm">
+          <draw:text-box>
+            <text:p text:style-name="P14"><text:span text:style-name="T10">1. AU, KIITUS OLGU IGAVEST'</text:span></text:p>
+            <text:p text:style-name="P14"><text:span text:style-name="T10">Salm 1</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page29" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.67cm" draw:z-index="0" draw:style-name="gr5" draw:text-style-name="P20" draw:layer="layout" svg:x="1.4cm" svg:y="12.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P19"><text:span text:style-name="T12">Jutlus:</text:span></text:p>
+            <text:p text:style-name="P19"><text:span text:style-name="T12">Lk 1:1</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page30" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr17" draw:text-style-name="P29" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T18">1</text:span><text:span text:style-name="T11">Juba mitmed on võtnud kätte koostada jutustus neist asjust, mis meie seas on aset leidnud, </text:span></text:p>
+            <text:p text:style-name="P26"><text:span text:style-name="T11"><text:s/>
+              </text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page31" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr5" draw:layer="layout" svg:width="25.2cm" svg:height="2.67cm" svg:x="1.4cm" svg:y="12.29cm">
+          <text:p style:text-properties="['fo:font-size=&quot;28pt&quot;', 'fo:font-weight=&quot;bold&quot;', 'style:font-size-asian=&quot;28pt&quot;', 'style:font-weight-asian=&quot;bold&quot;', 'style:font-size-complex=&quot;28pt&quot;', 'style:font-weight-complex=&quot;bold&quot;']" style:paragraph-properties="['fo:text-align=&quot;center&quot;', 'style:writing-mode=&quot;lr-tb&quot;']"><text:span style:text-properties="{'fo:font-size': '28pt', 'fo:font-weight': 'bold', 'style:font-size-asian': '28pt', 'style:font-weight-asian': 'bold', 'style:font-size-complex': '28pt', 'style:font-weight-complex': 'bold'}">1. AU, KIITUS OLGU IGAVEST'</text:span></text:p>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page32" draw:style-name="dp4" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:frame svg:width="23.7cm" svg:height="13.189cm" draw:z-index="0" draw:style-name="gr6" draw:text-style-name="P13" draw:layer="layout" svg:x="2.2cm" svg:y="1.29cm">
+          <draw:text-box>
+            <text:p><text:span text:style-name="T9">Au, kiitus olgu igavest'</text:span></text:p>
+            <text:p><text:span text:style-name="T9">Kolmainu Jumalale,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">et Tema suurest heldusest</text:span></text:p>
+            <text:p><text:span text:style-name="T9">meid avitanud jälle.</text:span></text:p>
+            <text:p><text:span text:style-name="T9">Meist hea meel on Jumalal,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">suur rahupõlv on taeva all,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">kõik vaen on otsa saanud.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame svg:width="24cm" svg:height="2.612cm" draw:z-index="0" draw:style-name="gr7" draw:text-style-name="P15" draw:layer="layout" svg:x="2.4cm" svg:y="12.964cm">
+          <draw:text-box>
+            <text:p text:style-name="P14"><text:span text:style-name="T10">1. AU, KIITUS OLGU IGAVEST'</text:span></text:p>
+            <text:p text:style-name="P14"><text:span text:style-name="T10">Salm 1</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page33" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr5" draw:layer="layout" svg:width="25.2cm" svg:height="2.67cm" svg:x="1.4cm" svg:y="12.29cm">
+          <text:p style:text-properties="['fo:font-size=&quot;28pt&quot;', 'fo:font-weight=&quot;bold&quot;', 'style:font-size-asian=&quot;28pt&quot;', 'style:font-weight-asian=&quot;bold&quot;', 'style:font-size-complex=&quot;28pt&quot;', 'style:font-weight-complex=&quot;bold&quot;']" style:paragraph-properties="['fo:text-align=&quot;center&quot;', 'style:writing-mode=&quot;lr-tb&quot;']"><text:span style:text-properties="{'fo:font-size': '28pt', 'fo:font-weight': 'bold', 'style:font-size-asian': '28pt', 'style:font-weight-asian': 'bold', 'style:font-size-complex': '28pt', 'style:font-weight-complex': 'bold'}">1. AU, KIITUS OLGU IGAVEST'</text:span></text:p>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page34" draw:style-name="dp4" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:frame svg:width="23.7cm" svg:height="13.189cm" draw:z-index="0" draw:style-name="gr6" draw:text-style-name="P13" draw:layer="layout" svg:x="2.2cm" svg:y="1.29cm">
+          <draw:text-box>
+            <text:p><text:span text:style-name="T9">Au, kiitus olgu igavest'</text:span></text:p>
+            <text:p><text:span text:style-name="T9">Kolmainu Jumalale,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">et Tema suurest heldusest</text:span></text:p>
+            <text:p><text:span text:style-name="T9">meid avitanud jälle.</text:span></text:p>
+            <text:p><text:span text:style-name="T9">Meist hea meel on Jumalal,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">suur rahupõlv on taeva all,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">kõik vaen on otsa saanud.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame svg:width="24cm" svg:height="2.612cm" draw:z-index="0" draw:style-name="gr7" draw:text-style-name="P15" draw:layer="layout" svg:x="2.4cm" svg:y="12.964cm">
+          <draw:text-box>
+            <text:p text:style-name="P14"><text:span text:style-name="T10">1. AU, KIITUS OLGU IGAVEST'</text:span></text:p>
+            <text:p text:style-name="P14"><text:span text:style-name="T10">Salm 1</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page35" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr5" draw:layer="layout" svg:width="25.2cm" svg:height="2.67cm" svg:x="1.4cm" svg:y="12.29cm">
+          <text:p style:text-properties="['fo:font-size=&quot;28pt&quot;', 'fo:font-weight=&quot;bold&quot;', 'style:font-size-asian=&quot;28pt&quot;', 'style:font-weight-asian=&quot;bold&quot;', 'style:font-size-complex=&quot;28pt&quot;', 'style:font-weight-complex=&quot;bold&quot;']" style:paragraph-properties="['fo:text-align=&quot;center&quot;', 'style:writing-mode=&quot;lr-tb&quot;']"><text:span style:text-properties="{'fo:font-size': '28pt', 'fo:font-weight': 'bold', 'style:font-size-asian': '28pt', 'style:font-weight-asian': 'bold', 'style:font-size-complex': '28pt', 'style:font-weight-complex': 'bold'}">1. AU, KIITUS OLGU IGAVEST'</text:span></text:p>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page36" draw:style-name="dp4" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:frame svg:width="23.7cm" svg:height="13.189cm" draw:z-index="0" draw:style-name="gr6" draw:text-style-name="P13" draw:layer="layout" svg:x="2.2cm" svg:y="1.29cm">
+          <draw:text-box>
+            <text:p><text:span text:style-name="T9">Au, kiitus olgu igavest'</text:span></text:p>
+            <text:p><text:span text:style-name="T9">Kolmainu Jumalale,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">et Tema suurest heldusest</text:span></text:p>
+            <text:p><text:span text:style-name="T9">meid avitanud jälle.</text:span></text:p>
+            <text:p><text:span text:style-name="T9">Meist hea meel on Jumalal,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">suur rahupõlv on taeva all,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">kõik vaen on otsa saanud.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame svg:width="24cm" svg:height="2.612cm" draw:z-index="0" draw:style-name="gr7" draw:text-style-name="P15" draw:layer="layout" svg:x="2.4cm" svg:y="12.964cm">
+          <draw:text-box>
+            <text:p text:style-name="P14"><text:span text:style-name="T10">1. AU, KIITUS OLGU IGAVEST'</text:span></text:p>
+            <text:p text:style-name="P14"><text:span text:style-name="T10">Salm 1</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page37" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr12" draw:text-style-name="P24" draw:layer="layout" svg:width="25.2cm" svg:height="2.67cm" svg:x="1.4cm" svg:y="12.29cm">
+          <text:p text:style-name="P23"><text:span text:style-name="T13">Kirikupalve</text:span></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page38" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr16" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="2.46cm" svg:x="0cm" svg:y="13.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T11">Sind, Jumal kiidame! Sind, Issand täname!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page39" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr16" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="2.46cm" svg:x="0cm" svg:y="13.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T11">Kuule meid, armas Issand Jumal!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page40" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr16" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="2.46cm" svg:x="0cm" svg:y="13.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T11">Aita meid, armas Issand Jumal!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page41" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.453cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="12.507cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Oh Jeesus Krist, oh kuule mind, oh kuule mind!</text:span></text:p>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Ma tahan ikka kiita Sind! Aamen.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page42" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr16" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="2.46cm" svg:x="0cm" svg:y="13.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T11">Ja sinu vaimuga!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page43" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr16" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="2.46cm" svg:x="0cm" svg:y="13.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T11">Meie ülendame südamed Issanda poole.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page44" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr16" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="2.46cm" svg:x="0cm" svg:y="13.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T11">See on õige ja kohus.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page45" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr12" draw:text-style-name="P24" draw:layer="layout" svg:width="25.2cm" svg:height="2.67cm" svg:x="1.4cm" svg:y="12.29cm">
+          <text:p text:style-name="P23"><text:span text:style-name="T13">Sanctus</text:span></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page46" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr16" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="2.46cm" svg:x="0cm" svg:y="13.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T11">Püha, püha, püha on meie Jumal, me Issand Seebaot.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page47" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr16" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="2.46cm" svg:x="0cm" svg:y="13.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T11">Taevas ja maa, taevas ja maa on täis Tema au!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page48" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.453cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="12.507cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Hoosianna kõrges! Kiidetud olgu, kes tuleb<text:s/>
+              </text:span></text:p>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Issanda nimel. Hoosianna kõrges!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page49" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr12" draw:text-style-name="P24" draw:layer="layout" svg:width="25.2cm" svg:height="2.67cm" svg:x="1.4cm" svg:y="12.29cm">
+          <text:p text:style-name="P23"><text:span text:style-name="T13">Meie Isa Palve</text:span></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page50" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr11" draw:text-style-name="P22" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P21"><text:span text:style-name="T11">Meie Isa, kes Sa oled taevas! Pühitsetud olgu Sinu nimi. Sinu riik tulgu. Sinu tahtmine sündigu nagu taevas, nõnda ka maa peal.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page51" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="3.67cm" draw:z-index="0" draw:style-name="gr11" draw:text-style-name="P22" draw:layer="layout" svg:x="1.4cm" svg:y="11.29cm">
+          <draw:text-box>
+            <text:p text:style-name="P21"><text:span text:style-name="T11">Meie igapäevast leiba anna meile tänapäev. Ja anna meile andeks meie võlad, nagu meiegi andeks anname oma võlglastele. Ja ära saada meid kiusatusse,<text:s/>
+              </text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page52" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr10" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="4.46cm" svg:x="0cm" svg:y="11.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P18" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P33"><text:span text:style-name="T20">vaid päästa meid ära kurjast.</text:span></text:p>
+            <text:p text:style-name="P33"><text:span text:style-name="T21"><text:tab/>
+              </text:span><text:span text:style-name="T21">♪ Sest Sinu päralt on riik ja vägi ja au igavesti.<text:s/>
+              </text:span></text:p>
+            <text:p text:style-name="P33"><text:span text:style-name="T21"><text:tab/>
+              </text:span><text:span text:style-name="T21">Aamen.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page53" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr12" draw:text-style-name="P24" draw:layer="layout" svg:width="25.2cm" svg:height="2.67cm" svg:x="1.4cm" svg:y="12.29cm">
+          <text:p text:style-name="P23"><text:span text:style-name="T13">Agnus Dei</text:span></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page54" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.453cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="12.507cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Kristus, Jumala Tall, kes maailma patud kannad,</text:span></text:p>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">halasta meie peale!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page55" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.453cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="12.507cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Kristus, Jumala Tall, kes maailma patud kannad,</text:span></text:p>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">halasta meie peale!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page56" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="2.453cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="12.507cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">Kristus, Jumala Tall, kes maailma patud kannad,</text:span></text:p>
+            <text:p text:style-name="P26"><text:span text:style-name="T16">anna meile oma rahu!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page57" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr16" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="2.46cm" svg:x="0cm" svg:y="13.29cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame svg:width="25.2cm" svg:height="4.655cm" draw:z-index="0" draw:style-name="gr13" draw:text-style-name="P27" draw:layer="layout" svg:x="1.4cm" svg:y="10.305cm">
+          <draw:text-box>
+            <text:p text:style-name="P26"><text:span text:style-name="T11">Ja Tema heldus kestab igavesti.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page58" draw:style-name="dp3" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P1" draw:layer="layout" svg:width="28cm" svg:height="3.5cm" svg:x="0cm" svg:y="12.25cm">
+          <text:p></text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:custom-shape draw:style-name="gr5" draw:layer="layout" svg:width="25.2cm" svg:height="2.67cm" svg:x="1.4cm" svg:y="12.29cm">
+          <text:p style:text-properties="['fo:font-size=&quot;28pt&quot;', 'fo:font-weight=&quot;bold&quot;', 'style:font-size-asian=&quot;28pt&quot;', 'style:font-weight-asian=&quot;bold&quot;', 'style:font-size-complex=&quot;28pt&quot;', 'style:font-weight-complex=&quot;bold&quot;']" style:paragraph-properties="['fo:text-align=&quot;center&quot;', 'style:writing-mode=&quot;lr-tb&quot;']"><text:span style:text-properties="{'fo:font-size': '28pt', 'fo:font-weight': 'bold', 'style:font-size-asian': '28pt', 'style:font-weight-asian': 'bold', 'style:font-size-complex': '28pt', 'style:font-weight-complex': 'bold'}">1. AU, KIITUS OLGU IGAVEST'</text:span></text:p>
+        </draw:custom-shape>
+      </draw:page>
+      <draw:page draw:name="page59" draw:style-name="dp4" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:frame svg:width="23.7cm" svg:height="13.189cm" draw:z-index="0" draw:style-name="gr6" draw:text-style-name="P13" draw:layer="layout" svg:x="2.2cm" svg:y="1.29cm">
+          <draw:text-box>
+            <text:p><text:span text:style-name="T9">Au, kiitus olgu igavest'</text:span></text:p>
+            <text:p><text:span text:style-name="T9">Kolmainu Jumalale,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">et Tema suurest heldusest</text:span></text:p>
+            <text:p><text:span text:style-name="T9">meid avitanud jälle.</text:span></text:p>
+            <text:p><text:span text:style-name="T9">Meist hea meel on Jumalal,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">suur rahupõlv on taeva all,</text:span></text:p>
+            <text:p><text:span text:style-name="T9">kõik vaen on otsa saanud.</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame svg:width="24cm" svg:height="2.612cm" draw:z-index="0" draw:style-name="gr7" draw:text-style-name="P15" draw:layer="layout" svg:x="2.4cm" svg:y="12.964cm">
+          <draw:text-box>
+            <text:p text:style-name="P14"><text:span text:style-name="T10">1. AU, KIITUS OLGU IGAVEST'</text:span></text:p>
+            <text:p text:style-name="P14"><text:span text:style-name="T10">Salm 1</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page60" draw:style-name="dp4" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:frame svg:width="20.414cm" svg:height="4.049cm" draw:z-index="0" draw:style-name="gr45" draw:text-style-name="P36" draw:layer="layout" svg:x="3.793cm" svg:y="8.79cm">
+          <draw:text-box>
+            <text:p text:style-name="P2"><text:span text:style-name="T23">Issanda Jeesuse Kristuse arm,</text:span></text:p>
+            <text:p text:style-name="P2"><text:span text:style-name="T23">Jumala armastus ja Püha Vaimu osadus olgu teie kõikidega!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+      <draw:page draw:name="page61" draw:style-name="dp4" draw:master-page-name="Default">
+        <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+        <draw:frame svg:width="25.199cm" svg:height="2.63cm" draw:z-index="0" presentation:style-name="pr3" draw:text-style-name="P37" draw:layer="layout" svg:x="1.401cm" svg:y="0.49cm" presentation:class="title" presentation:user-transformed="true">
+          <draw:text-box>
+            <text:p><text:span text:style-name="T24">Jumalateenistus 8. märtsil 2026</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame svg:width="22.6cm" svg:height="6.17cm" draw:z-index="0" presentation:style-name="pr4" draw:text-style-name="P40" draw:layer="layout" svg:x="2.1cm" svg:y="2.92cm" presentation:class="outline" presentation:user-transformed="true">
+          <draw:text-box>
+            <text:list text:style-name="L2">
+              <text:list-header>
+                <text:p text:style-name="P38"><text:span text:style-name="T25">Jutlustas:  </text:span><text:span text:style-name="T26"></text:span></text:p>
+                <text:p text:style-name="P38"><text:span text:style-name="T25">Kaasa teenisid: ++ </text:span><text:span text:style-name="T26">+++ </text:span><text:span text:style-name="T25">ja</text:span></text:p>
+                <text:p text:style-name="P38"><text:span text:style-name="T25">++ </text:span><text:span text:style-name="T26">+++</text:span></text:p>
+                <text:p text:style-name="P38"><text:span text:style-name="T25">Orelil: </text:span><text:span text:style-name="T26"></text:span></text:p>
+                <text:p text:style-name="P38"><text:span text:style-name="T25">Piiblitekste lugesid: </text:span><text:span text:style-name="T26">+++ </text:span><text:span text:style-name="T25">ja </text:span><text:span text:style-name="T26">+++</text:span></text:p>
+              </text:list-header>
+            </text:list>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame svg:width="9.5cm" svg:height="5.298cm" draw:z-index="0" draw:style-name="gr47" draw:text-style-name="P43" draw:layer="layout" svg:x="5.1cm" svg:y="9.19cm">
+          <draw:text-box>
+            <text:p text:style-name="P41"><text:span text:style-name="T29">Ülekande tõid teieni:</text:span></text:p>
+            <text:p text:style-name="P41"><text:span text:style-name="T30"> </text:span><text:span text:style-name="T31">– kaamerad</text:span></text:p>
+            <text:p text:style-name="P41"><text:span text:style-name="T30"> </text:span><text:span text:style-name="T31">– heli</text:span></text:p>
+            <text:p text:style-name="P41"><text:span text:style-name="T30"> </text:span><text:span text:style-name="T31">– slaidid</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame svg:width="10cm" svg:height="3.843cm" draw:z-index="0" draw:style-name="gr48" draw:text-style-name="P45" draw:layer="layout" svg:x="16cm" svg:y="9.1cm">
+          <draw:text-box>
+            <text:p text:style-name="P44"><text:span text:style-name="T29">Vöörmündrid:</text:span></text:p>
+            <text:p text:style-name="P44"><text:span text:style-name="T30"/></text:p>
+            <text:p text:style-name="P44"><text:span text:style-name="T30"/></text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame svg:width="25.2cm" svg:height="1.277cm" draw:z-index="0" draw:style-name="gr46" draw:text-style-name="P28" draw:layer="layout" svg:x="1.1cm" svg:y="13.783cm">
+          <draw:text-box>
+            <text:p text:style-name="P2"><text:span text:style-name="T28">Täname südamest! Uute kohtumisteni!</text:span></text:p>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+    </office:presentation>
+  </office:body>
+</office:document-content>

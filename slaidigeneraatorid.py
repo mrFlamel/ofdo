@@ -4,6 +4,10 @@ def setAttributes(element, atribuudid):
     for i in atribuudid:
         element.set_attribute(i, atribuudid[i])
 
+def setStyleAttributes(element, atribuudid):
+    for i in atribuudid:
+        element.set_style_attribute(i, atribuudid[i])
+
 def setOfficeForms(page):
     officeForms = OfficeForms()
     setAttributes(officeForms, {
@@ -83,10 +87,34 @@ def uusPealkiri(slaidi_number, tekst, body):
         'svg:x': '1.4cm',
         'svg:y': '12.29cm'
         })
-    text = Paragraph()
+    text = Paragraph() 
     setAttributes(text, {'text:style-name': 'P10'})
-    span = Span(tekst)
-    setAttributes(span, {'text:style-name': 'T8'})
+    #CUSTOM STYLE
+    style = Style(
+        family="paragraph",
+        area="text",
+        name="special"
+    )
+    style.set_properties(
+        area="paragraph",
+        properties={
+            "fo:text-align": "center",
+            "style:writing-mode": "lr-tb"
+        })
+    style.set_properties(
+        area="text",
+        properties={
+            "fo:font-size": "28pt",
+            "fo:font-weight": "bold",
+            'style:font-size-asian': '28pt',
+            'style:font-weight-asian': 'bold',
+            'style:font-size-complex': '28pt',
+            'style:font-weight-complex': 'bold'
+        })
+    
+    body.insert_style(style)
+    span = Span(tekst, style="special")
+    #setAttributes(span, {'text:style-name': 'T8'})
     text.append(span)
     shape.append(text)
     page.append(shape)

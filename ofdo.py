@@ -7,6 +7,7 @@ import laulud
 import kirjakohad
 import slaidigeneraatorid as slaidilooja
 import pyhad
+import uuendaja
 
 VERSIOON = "v105"
 PYTHON = False # False - selleks, et python compilida; True - selleks, et testida pythonit
@@ -19,6 +20,9 @@ parser.add_argument('-k', '--kord', help="Genereeritava jumalateenistuse slaidid
 parser.add_argument('-s', '--sisend', help="Kogu nõutud sisend ühe rea kujul (eraldatud semikoolonitega)", metavar="VALIK")
 argumendid = parser.parse_args()
 
+
+# UUENDUSE KONTROLLIMINE
+uuendaja.kontrolli_uuendusi(VERSIOON)
 
 # JÄRGMISE TEENISTUSE ARVUTAMINE
 #kuupäev = pyhad.järgmineTeenistus()

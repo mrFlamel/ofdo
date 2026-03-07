@@ -4,4 +4,4 @@ rm -rf venv
 
 source venv/bin/activate
 
-pip install odfdo pyinstaller python-dateutil
+pip install odfdo pyinstaller python-dateutil requests charset-normalizer==2.1.0

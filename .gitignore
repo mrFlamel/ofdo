@@ -2,6 +2,7 @@ Custom
 *.odp
 .~lock.*
 !stiilid.odp
+stiilid.odp_FILES/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

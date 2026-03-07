@@ -6,7 +6,7 @@ mkdir KRAAM
 exit
 "
 
-scp -P 22220 ofdo.spec ofdo.py kirjakohad.py laulud.py piibel.xml pyhad.py slaidigeneraatorid.py stiilid.odp mycomputer@localhost:~/Desktop/KRAAM
+scp -P 22220 ofdo.spec ofdo.py kirjakohad.py laulud.py piibel.xml pyhad.py slaidigeneraatorid.py uuendaja.py stiilid.odp mycomputer@localhost:~/Desktop/KRAAM
 scp -P 22220 -r laulud mycomputer@localhost:~/Desktop/KRAAM
 
 ssh -p 22220 mycomputer@localhost "
