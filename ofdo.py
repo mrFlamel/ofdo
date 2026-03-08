@@ -395,7 +395,7 @@ viimaneNumber += 1
 
 # TIITRID
 tiitel = "Jumalateenistus " + kuupäevSõnadega
-peategijad = [['Jutlustas: '+jutlustaja[0]+' ', " ".join(jutlustaja[1:])], ['Kaasa teenisid: ++ ', '+++ ', 'ja'], ['++ ', '+++'], ['Orelil: ', orelil], ['Piiblitekste lugesid: ', '+++ ', 'ja ', '+++']]
+peategijad = [['Jutlustas: '+jutlustaja[0], ' ' + " ".join(jutlustaja[1:])], ['Kaasa teenisid: ++', ' +++', 'ja'], ['++', ' +++'], ['Orelil:', " " + orelil], ['Piiblitekste luges:', ' +++']]
 tehnikatiim = ['Ülekande tõid teieni:', [kaamerad, '– kaamerad'], [heli, '– heli'], [slaiditegija, '– slaidid']]
 vöörmündrid = ['Vöörmündrid:', vöörmünder1, vöörmünder2]
 lõpusoov = "Täname südamest! Uute kohtumisteni!"
