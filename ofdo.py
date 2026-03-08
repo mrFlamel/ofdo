@@ -9,8 +9,9 @@ import slaidigeneraatorid as slaidilooja
 import pyhad
 import uuendaja
 
-VERSIOON = "v105"
+VERSIOON = "v104"
 PYTHON = False # False - selleks, et python compilida; True - selleks, et testida pythonit
+
 
 # LIPPUDE HANKIMINE
 import argparse
@@ -22,7 +23,11 @@ argumendid = parser.parse_args()
 
 
 # UUENDUSE KONTROLLIMINE
-uuendaja.kontrolli_uuendusi(VERSIOON)
+if PYTHON:
+    TARGET_DIR = Path()
+else:
+    TARGET_DIR = Path(sys.executable).resolve().parent
+uuendaja.kontrolli_uuendusi(VERSIOON, TARGET_DIR)
 
 # JÄRGMISE TEENISTUSE ARVUTAMINE
 #kuupäev = pyhad.järgmineTeenistus()
@@ -94,10 +99,6 @@ print("Jumalateenistus " + korrad_välja_kirjutatud[korrad.index(kord)] + kuupä
 print("************************************************************\n")
 
 # SLAIDI TEGEMISEKS VAJALIKUD ANDMED
-if PYTHON:
-    TARGET_DIR = Path()
-else:
-    TARGET_DIR = Path(sys.executable).resolve().parent
 TARGET = kuupäevNumbritega + " Jumalateenistus (Ofdo).odp"
 STIILID = "stiilid.odp"
 STIILID_DIR = Path(__file__).parent
