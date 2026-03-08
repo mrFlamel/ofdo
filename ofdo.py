@@ -9,7 +9,7 @@ import slaidigeneraatorid as slaidilooja
 import pyhad
 import uuendaja
 
-VERSIOON = "v105"
+VERSIOON = "v106"
 PYTHON = False # False - selleks, et python compilida; True - selleks, et testida pythonit
 
 
