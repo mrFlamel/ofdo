@@ -18,6 +18,10 @@ def kontrolli_uuendusi(praegune_versioon, sihtkaust):
             elif platform.system() == "Windows":
                 filename = "ofdo-" + release_data["tag_name"] + "-win.exe"
             
+            if os.path.isfile(sihtkaust / filename):
+                print('Fail "' + filename + '" on juba alla laetud!')
+                sys.exit()
+            
             uus_versioon = requests.get("https://github.com/mrflamel/ofdo/releases/latest/download/" + filename)
             with open(sihtkaust / filename, mode="wb") as file:
                 file.write(uus_versioon.content)
