@@ -15,7 +15,7 @@ PYTHON = False # False - selleks, et python compilida; True - selleks, et testid
 
 # LIPPUDE HANKIMINE
 import argparse
-parser = argparse.ArgumentParser(prog=VERSIOON, description="Ofdo on automatiseeritud süsteem Pauluse kiriku jumalateenistuste ülekannete slaidide genereerimiseks.")
+parser = argparse.ArgumentParser(prog="ofdo", description="Ofdo on automatiseeritud süsteem Pauluse kiriku jumalateenistuste ülekannete slaidide genereerimiseks.")
 parser.add_argument('-p', '--päev', help="Genereeritava jumalateenistuse kuupäev (nt 07.12.2025)", metavar="VALIK")
 parser.add_argument('-k', '--kord', help="Genereeritava jumalateenistuse slaidide soovitud kord (tavaline/suur/paast)", metavar="VALIK")
 parser.add_argument('-s', '--sisend', help="Kogu nõutud sisend ühe rea kujul (eraldatud semikoolonitega)", metavar="VALIK")
