@@ -10,7 +10,7 @@ import pyhad
 import uuendaja
 
 VERSIOON = "v106"
-PYTHON = False # False - selleks, et python compilida; True - selleks, et testida pythonit
+PYTHON = True # False - selleks, et python compilida; True - selleks, et testida pythonit
 
 
 # LIPPUDE HANKIMINE
@@ -401,8 +401,7 @@ vöörmündrid = ['Vöörmündrid:', vöörmünder1, vöörmünder2]
 lõpusoov = "Täname südamest! Uute kohtumisteni!"
 slaidilooja.lõpuTiitrid(str(viimaneNumber+1), tiitel, peategijad, tehnikatiim, vöörmündrid, lõpusoov, body)
 
-
-
+document.meta.initial_creator = "Ofdo " + VERSIOON
 document.save(TARGET_DIR / TARGET, pretty=True)
 
 print("************************************************************\n")
