@@ -10,7 +10,7 @@ import pyhad
 import uuendaja
 
 VERSIOON = "v106"
-PYTHON = True # False - selleks, et python compilida; True - selleks, et testida pythonit
+PYTHON = False # False - selleks, et python compilida; True - selleks, et testida pythonit
 
 
 # LIPPUDE HANKIMINE
