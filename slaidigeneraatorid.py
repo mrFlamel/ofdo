@@ -58,7 +58,7 @@ def tumeTaustAll(page, ridade_arv):
 
 
 
-def uusPealkiri(slaidi_number, tekst, body):
+def uusPealkiri(slaidi_number, tekst, font_size, body, document):
     page = DrawPage()
     setAttributes(page, {
         'draw:name': 'page'+slaidi_number,
@@ -72,21 +72,44 @@ def uusPealkiri(slaidi_number, tekst, body):
     # TAGUMINE TUME ALA
     tumeTaustAll(page, 2)
     
+    #CUSTOM STYLE
+    if font_size != "36pt":
+        style = Style(family="paragraph", area="text", name="custom_width_"+font_size)
+        style.set_properties(area="paragraph",
+            properties={
+                "fo:text-align": "center",
+                "style:writing-mode": "lr-tb"
+            })
+        style.set_properties(area="text",
+            properties={
+                "fo:font-size": font_size,
+                "fo:font-weight": "bold",
+                'style:font-size-asian': font_size,
+                'style:font-weight-asian': 'bold',
+                'style:font-size-complex': font_size,
+                'style:font-weight-complex': 'bold'
+            })
+        document.insert_style(style, automatic=True)
+    
     # TEKST
     shape = Element.from_tag('draw:custom-shape')
     setAttributes(shape, {
         'draw:style-name': 'gr5',
-        'draw:text-style-name': 'P11',
         'draw:layer': 'layout',
         'svg:width': '25.2cm',
         'svg:height': '2.67cm',
         'svg:x': '1.4cm',
         'svg:y': '12.29cm'
         })
-    text = Paragraph()
-    setAttributes(text, {'text:style-name': 'P10'})
-    span = Span(tekst)
-    setAttributes(span, {'text:style-name': 'T8'})
+    
+    if font_size != "36pt":
+        text = Paragraph(style="custom_width_"+font_size)
+        span = Span(tekst, style="custom_width_"+font_size)
+    else:
+        text = Paragraph()
+        setAttributes(text, {'text:style-name': 'P10'})
+        span = Span(tekst)
+        setAttributes(span, {'text:style-name': 'T8'})
     text.append(span)
     shape.append(text)
     page.append(shape)

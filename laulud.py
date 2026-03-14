@@ -107,8 +107,25 @@ def küsiKasutajalt(number, sisend):
     
     return pealkiri, tulemusSlaidid, salmidearv
 
-def genereeri(pealkiri, tulemusSlaidid, viimaneNumber, body):
-    slaidilooja.uusPealkiri(str(viimaneNumber+1), pealkiri, body)
+def arvutaTekstiLaius(tekst, font_size):
+    import tkinter 
+    from tkinter import font as tkFont
+    root = tkinter.Tk()
+    dpi = root.winfo_fpixels('1i')
+    root.withdraw()
+    _text = tkFont.Font(family='Liberation Sans', size=font_size)
+    width = _text.measure(tekst)
+    cm = width * (2.54 / dpi)
+    return cm
+
+def genereeri(pealkiri, tulemusSlaidid, viimaneNumber, body, document):
+    font_size = 36
+    if arvutaTekstiLaius(pealkiri, font_size) > 24.5:
+        while True:
+            font_size -= 1
+            if arvutaTekstiLaius(pealkiri, font_size) < 24.5:
+                break
+    slaidilooja.uusPealkiri(str(viimaneNumber+1), pealkiri, str(font_size)+"pt", body, document)
     for i in range(int(len(tulemusSlaidid)/2)):
         slaidilooja.uusSalm(str(viimaneNumber+2+i), tulemusSlaidid[i*2+1], pealkiri, "Salm "+tulemusSlaidid[i*2], body)
     

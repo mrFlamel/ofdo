@@ -173,7 +173,7 @@ slaidilooja.avaleht(str(viimaneNumber+1), tiitel, lauludtekstid, lugemised, body
 viimaneNumber += 1
 
 # ALGUSLAUL
-viimaneNumber = laulud.genereeri(laul1pealkiri, laul1sõnad, viimaneNumber, body)
+viimaneNumber = laulud.genereeri(laul1pealkiri, laul1sõnad, viimaneNumber, body, document)
 
 # LITURGIA
 liturgia = ["Nõnda kui alguses oli, nüüdki on ja jääb", "igavesest ajast igavesti. Aamen."]
@@ -293,7 +293,7 @@ viimaneNumber += len(usutunnistus)
 
 
 # PÄEVA LAUL
-viimaneNumber = laulud.genereeri(laul2pealkiri, laul2sõnad, viimaneNumber, body)
+viimaneNumber = laulud.genereeri(laul2pealkiri, laul2sõnad, viimaneNumber, body, document)
 
 
 # JUTLUSETEKST
@@ -305,14 +305,14 @@ viimaneNumber = kirjakohad.slaididele(slaidid, viimaneRida, viimaneNumber, body)
 
 
 # KANTSLISALM
-viimaneNumber = laulud.genereeri(laul3pealkiri, laul3sõnad, viimaneNumber, body)
+viimaneNumber = laulud.genereeri(laul3pealkiri, laul3sõnad, viimaneNumber, body, document)
 
 
 # MÄLESTUSLAUL
-viimaneNumber = laulud.genereeri(laul4pealkiri, laul4sõnad, viimaneNumber, body)
+viimaneNumber = laulud.genereeri(laul4pealkiri, laul4sõnad, viimaneNumber, body, document)
 
 # PALVELAUL
-viimaneNumber = laulud.genereeri(laul5pealkiri, laul5sõnad, viimaneNumber, body)
+viimaneNumber = laulud.genereeri(laul5pealkiri, laul5sõnad, viimaneNumber, body, document)
 
 
 # KIRIKUPALVE
@@ -386,7 +386,7 @@ else:
 
 
 # LÕPULAUL
-viimaneNumber = laulud.genereeri(laul6pealkiri, laul6sõnad, viimaneNumber, body)
+viimaneNumber = laulud.genereeri(laul6pealkiri, laul6sõnad, viimaneNumber, body, document)
 
 # LÕPUSOOV
 tekst = ['Issanda Jeesuse Kristuse arm,', 'Jumala armastus ja Püha Vaimu osadus olgu teie kõikidega!']
