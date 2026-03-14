@@ -88,7 +88,7 @@ else:
     
 
 korrad = ['tavaline', 'suur', 'paast']
-korrad_välja_kirjutatud = ['', 'suurel pühal, ', 'paastuajal, ']
+korrad_välja_kirjutatud = ['', 'suurel pühal ', 'paastuajal ']
 if argumendid.kord and argumendid.kord in korrad:
     kord = argumendid.kord
 else:
