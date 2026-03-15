@@ -446,7 +446,7 @@ def arvutaVormindus(lugemine, salmiNumbrid, numbritega=True):#Ps 22,8-10 Jh 16,2
 
 
 
-def kontrolli(küsimus, sisend, tühiSobib=False):
+def kontrolli(küsimus, sisend, eeldatav_asukoht=False, tühiSobib=False):
     while True:
         try:
             if sisend == False:
@@ -466,8 +466,16 @@ def kontrolli(küsimus, sisend, tühiSobib=False):
             else:
                 pass
             
+            if eeldatav_asukoht:
+                if eeldatav_asukoht != üldine_asukoht:
+                    print('Sisestati kirjakoht asukohast "' + üldine_asukoht + '", kuigi eeldati hoopis asukohast "' + eeldatav_asukoht + '".')
+                    tempVastus = input("Kas sa oled kindel (j/E): ").lower()
+                    if tempVastus == "j":
+                        pass
+                    else:
+                        raise Exception("Küsin kirjakohta uuesti...")
+            
             #       [kirjakoht]        [2, 3]  Lk 1:2-3  evangeelium    
             return arvutatavTulemus, salmiList, asukoht.strip(), üldine_asukoht
         except Exception as e:
             print(e)
-            time.sleep(2)

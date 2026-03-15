@@ -10,7 +10,7 @@ import pyhad
 import uuendaja
 
 VERSIOON = "v106"
-PYTHON = False # False - selleks, et python compilida; True - selleks, et testida pythonit
+PYTHON = True # False - selleks, et python compilida; True - selleks, et testida pythonit
 
 
 # LIPPUDE HANKIMINE
@@ -110,6 +110,8 @@ style_document = Document(STIILID_DIR / STIILID)
 document.delete_styles()
 document.merge_styles_from(style_document)
 
+# KIRJAKOHTADE ÜLDISTE ASUKOHTADE LEIDMINE PRAEGUSE AASTA JÄRGI
+asukoht1, asukoht2, asukoht3 = pyhad.leiaÜldAsukohad(kuupäevNumbritega) # vana_testament, evangeelium, epistel
 
 
 # KASUTAJALT ANDMETE KÜSIMINE
@@ -127,10 +129,10 @@ laul4pealkiri, laul4sõnad, laul4salmidearv = laulud.küsiKasutajalt("4. laulmin
 laul5pealkiri, laul5sõnad, laul5salmidearv = laulud.küsiKasutajalt("5. laulmine ehk palvelaul", sisend[4])
 laul6pealkiri, laul6sõnad, laul6salmidearv = laulud.küsiKasutajalt("6. laulmine ehk lõpulaul", sisend[5])
 
-lugemine1, salmiNumbrid1, lugemine1viide, lugemine1üldasukoht = kirjakohad.kontrolli("1. lugemine: ", sisend[6])
-lugemine2, salmiNumbrid2, lugemine2viide, lugemine2üldasukoht = kirjakohad.kontrolli("2. lugemine: ", sisend[7])
-lugemine3, salmiNumbrid3, lugemine3viide, lugemine3üldasukoht = kirjakohad.kontrolli("3. lugemine (jutluse aluseks): ", sisend[8])
-pihtLugemine, pihtNumbrid, pihtViide, pihtÜldasukoht = kirjakohad.kontrolli("Pihisalm (pole kohustuslik): ", sisend[9], True)
+lugemine1, salmiNumbrid1, lugemine1viide, lugemine1üldasukoht = kirjakohad.kontrolli("1. lugemine: ", sisend[6], asukoht1)
+lugemine2, salmiNumbrid2, lugemine2viide, lugemine2üldasukoht = kirjakohad.kontrolli("2. lugemine: ", sisend[7], asukoht2)
+lugemine3, salmiNumbrid3, lugemine3viide, lugemine3üldasukoht = kirjakohad.kontrolli("3. lugemine (jutluse aluseks): ", sisend[8], asukoht3)
+pihtLugemine, pihtNumbrid, pihtViide, pihtÜldasukoht = kirjakohad.kontrolli("Pihisalm (pole kohustuslik): ", sisend[9], tühiSobib=True)
 
 # Kui laul2 ja laul3 on samad, siis pole vaja laulunumbrit esilehel mitu korda panna
 laul3tekstid = [laul3pealkiri.split(".")[0], laul3salmidearv]

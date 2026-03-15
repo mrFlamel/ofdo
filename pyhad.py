@@ -84,3 +84,28 @@ def järgmineTeenistus():
         print(i)
     
 """
+
+def leiaÜldAsukohad(kuupäevNumbritega):
+    päev = datetime.strptime(kuupäevNumbritega, "%d%m%Y")
+    aasta = päev.year
+    uusKirikuaasta = datetime(aasta, 12, 24) - timedelta((datetime(aasta, 12, 24).weekday() + 1) % 7) - timedelta(weeks=3)
+    if päev >= uusKirikuaasta:
+        aasta += 1
+    
+    if aasta % 2 == 0: # Kui aasta jagub 2-ga
+        if aasta % 4 == 0: # Kui aasta jagub 4-ga
+            lugemine1 = "epistel"
+            lugemine2 = "evangeelium"
+            jutlus = "vana_testament"
+        else:
+            lugemine1 = "vana_testament"
+            lugemine2 = "evangeelium"
+            jutlus = "epistel"
+    else:
+        lugemine1 = "vana_testament"
+        lugemine2 = "epistel"
+        jutlus = "evangeelium"
+    
+    return lugemine1, lugemine2, jutlus
+    
+    
