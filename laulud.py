@@ -87,7 +87,6 @@ def küsiKasutajalt(number, sisend):
             break
         except:
             print('Laulu "' + laul[0] + '" ei eksisteeri')
-            time.sleep(2)
     
     if len(laul[1].split("-")) == 1:
         pealkiri = laul[0] + ". " + pealkiri.upper()

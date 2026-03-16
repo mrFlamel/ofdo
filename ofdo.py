@@ -10,7 +10,7 @@ import pyhad
 import uuendaja
 
 VERSIOON = "v106"
-PYTHON = True # False - selleks, et python compilida; True - selleks, et testida pythonit
+PYTHON = False # False - selleks, et python compilida; True - selleks, et testida pythonit
 
 
 # LIPPUDE HANKIMINE
@@ -142,15 +142,15 @@ if laul2pealkiri == laul3pealkiri:
 if sisend[0] == False:
     jutlustaja = input("Jutlustas (koos tiitliga, nt õp): ").split()
     if len(jutlustaja) == 0:
-        jutlustaja = ['', '']
-    if len(jutlustaja) == 1:
-        jutlustaja = [jutlustaja[0], '']
-    orelil = input("Orelil: ")
-    kaamerad = input("Kaameraid juhtis: ") + " "
-    heli = input("Heli eest vastutas: ") + " "
-    slaiditegija = input("Slaide liigutas: ") + " "
-    vöörmünder1 = input("1. vöörmünder: ")
-    vöörmünder2 = input("2. vöörmünder: ")
+        jutlustaja = ['++', '++++']
+    elif len(jutlustaja) == 1:
+        jutlustaja = ['', jutlustaja[0]]
+    orelil = input("Orelil: ") or "+++"
+    kaamerad = (input("Kaameraid juhtis: ") or "+++") + " "
+    heli = (input("Heli eest vastutas: ") or "+++") + " "
+    slaiditegija = (input("Slaide liigutas: ") or "+++") + " "
+    vöörmünder1 = input("1. vöörmünder: ") or "+++"
+    vöörmünder2 = input("2. vöörmünder: ") or "+++"
 else:
     jutlustaja = ['++', '+++']
     orelil = "+++"
@@ -397,7 +397,7 @@ viimaneNumber += 1
 
 # TIITRID
 tiitel = "Jumalateenistus " + kuupäevSõnadega
-peategijad = [['Jutlustas: '+jutlustaja[0], ' ' + " ".join(jutlustaja[1:])], ['Kaasa teenisid: ++', ' +++', 'ja'], ['++', ' +++'], ['Orelil:', " " + orelil], ['Piiblitekste luges:', ' +++']]
+peategijad = [['Jutlustas: '+jutlustaja[0], ' ' + " ".join(jutlustaja[1:])], ['Kaasa teenisid: ++', ' +++', ' ja'], ['++', ' +++'], ['Orelil:', " " + orelil], ['Piiblitekste luges:', ' +++']]
 tehnikatiim = ['Ülekande tõid teieni:', [kaamerad, '– kaamerad'], [heli, '– heli'], [slaiditegija, '– slaidid']]
 vöörmündrid = ['Vöörmündrid:', vöörmünder1, vöörmünder2]
 lõpusoov = "Täname südamest! Uute kohtumisteni!"
