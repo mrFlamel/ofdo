@@ -1,5 +1,7 @@
 quickemu --vm ~/QUICKEMU/macos-big-sur.conf
 
+sleep 30
+
 ssh -p 22220 mycomputer@localhost "
 cd ~/Desktop
 mkdir KRAAM
