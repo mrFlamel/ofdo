@@ -10,6 +10,8 @@ def kontrolli_uuendusi(praegune_versioon, sihtkaust):
         release_data = r.json()
         
         if release_data["tag_name"] != praegune_versioon:
+            print("UUS VERSIOON " + release_data["tag_name"] + " ON SAADAVAL!")
+            print('Muudatuste nimekiri: ' + release_data["html_url"])
             print("Laen alla uue versiooni " + release_data["tag_name"] + " praeguse " + praegune_versioon + " asemel...")
             if platform.system() == "Linux":
                 filename = "ofdo-" + release_data["tag_name"] + "-linux"
