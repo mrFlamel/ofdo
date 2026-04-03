@@ -297,14 +297,16 @@ def poolita(poolitatavRida):
         esimenePool.append("")
     if type(tempList[int(poolitamisKoht)]) == str:
         teinePool.append("")
-        
+    
+    mituSalminumbrit = 0
     for index, i in enumerate(tempList):
-        if index == int(poolitamisKoht):
+        if index == int(poolitamisKoht)+mituSalminumbrit:
             esimessePoolde = False
         if type(i) == int:
             if esimessePoolde:
                 esimenePool.append(i)
                 esimenePool.append("")
+                mituSalminumbrit += 1
                 continue
             else:
                 teinePool.append(i)
