@@ -122,7 +122,7 @@ def genereeri(pealkiri, tulemusSlaidid, viimaneNumber, body, document):
     if arvutaTekstiLaius(pealkiri, font_size) > 24.5:
         while True:
             font_size -= 1
-            if arvutaTekstiLaius(pealkiri, font_size) < 24.5:
+            if arvutaTekstiLaius(pealkiri, font_size) < 24.3:
                 break
     slaidilooja.uusPealkiri(str(viimaneNumber+1), pealkiri, str(font_size)+"pt", body, document)
     for i in range(int(len(tulemusSlaidid)/2)):
