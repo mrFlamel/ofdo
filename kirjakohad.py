@@ -155,6 +155,8 @@ def poolita(poolitatavRida):
                     if (count([tempPooleks[1]] + poolitatavRida[len(poolitatavRida)-index:]) / reapikkus) < lubatudLõikamiseAla:
                         tagasi1 = poolitatavRida[:len(poolitatavRida)-index-1] + [tempPooleks[0] + märk]
                         tagasi2 = [" ".join(tempPooleks[1:])] + poolitatavRida[len(poolitatavRida)-index:]
+                        if tagasi2 == [""]: # Kui ta keeldub mingit poolitamist tegemast...
+                            continue
                         return tagasi1, tagasi2
     
     
@@ -371,7 +373,7 @@ def arvutaVormindus(lugemine, salmiNumbrid, numbritega=True):#Ps 22,8-10 Jh 16,2
             for word in i.split():
                 width = text.measure(ridaArvutamiseks + word + " ")
                 cm = width * (2.54 / dpi)
-                
+
                 if cm > 24.95:
                     
                     if praeguneRida == 2:
@@ -384,7 +386,7 @@ def arvutaVormindus(lugemine, salmiNumbrid, numbritega=True):#Ps 22,8-10 Jh 16,2
                             tempRidaPoolitamiseks.append(word + " ")
                         esimenePool, teinePool = poolita(tempRidaPoolitamiseks)
                         # KUI PROGRAMM TAHAKS JÄTA JÄRGMISE SLAIDI SÕNA ESIMESSE POOLDE
-                        if teinePool == [""]:
+                        if teinePool == [""] or teinePool == [word + " "]:
                             esimenePool, teinePool = poolita(slaididPraeguneRida)
                             if type(teinePool[-1]) == str:
                                 teinePool[-1] = teinePool[-1] + word + " "
