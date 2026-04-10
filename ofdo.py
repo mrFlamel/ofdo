@@ -226,6 +226,10 @@ else:
     slaidilooja.kahereaTekst(str(viimaneNumber+1), liturgia, body)
     viimaneNumber += 1
 
+    if kord == "suur":
+        slaidilooja.pealkiriMeile(str(viimaneNumber+1), "[Koor laulab Laudamust]", body)
+        viimaneNumber += 1
+    
     liturgia = ["Au, kiitus olgu igavest' Kolmainu Jumalale, ", "et Tema suurest heldusest meid avitanud jälle."]
     slaidilooja.kahereaTekst(str(viimaneNumber+1), liturgia, body)
     viimaneNumber += 1
