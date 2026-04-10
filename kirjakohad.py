@@ -378,20 +378,11 @@ def arvutaVormindus(lugemine, salmiNumbrid, numbritega=True):#Ps 22,8-10 Jh 16,2
                     
                     if praeguneRida == 2:
                         
-                        # POOLITA KOOS JÄRGMISE SLAIDI SÕNAGA
-                        tempRidaPoolitamiseks = list(slaididPraeguneRida)
-                        if type(tempRidaPoolitamiseks[-1]) == str:
-                            tempRidaPoolitamiseks[-1] = tempRidaPoolitamiseks[-1] + word + " "
+                        esimenePool, teinePool = poolita(slaididPraeguneRida)
+                        if type(teinePool[-1]) == str:
+                            teinePool[-1] = teinePool[-1] + word + " "
                         else:
-                            tempRidaPoolitamiseks.append(word + " ")
-                        esimenePool, teinePool = poolita(tempRidaPoolitamiseks)
-                        # KUI PROGRAMM TAHAKS JÄTA JÄRGMISE SLAIDI SÕNA ESIMESSE POOLDE
-                        if teinePool == [""] or teinePool == [word + " "]:
-                            esimenePool, teinePool = poolita(slaididPraeguneRida)
-                            if type(teinePool[-1]) == str:
-                                teinePool[-1] = teinePool[-1] + word + " "
-                            else:
-                                teinePool.append(word + " ")
+                            teinePool.append(word + " ")
                         
                         #print("OHHOHOO")
                         #print(slaididPraeguneRida)
@@ -416,7 +407,7 @@ def arvutaVormindus(lugemine, salmiNumbrid, numbritega=True):#Ps 22,8-10 Jh 16,2
                                 ridaArvutamiseks += tempNumber
                             else:
                                 ridaArvutamiseks += l
-                        
+                        praeguneRida = 0
                     else:
                         if type(slaididPraeguneRida[0]) == str and len(slaidid[-1]) > 0:
                             slaidid[-1][-1] += slaididPraeguneRida[0]
@@ -425,10 +416,6 @@ def arvutaVormindus(lugemine, salmiNumbrid, numbritega=True):#Ps 22,8-10 Jh 16,2
                             slaidid[-1] = slaidid[-1] + slaididPraeguneRida
                         slaididPraeguneRida = [word + " "]
                         ridaArvutamiseks = word + " "
-                    
-                    if praeguneRida == 2:
-                        praeguneRida = 0
-                    else:
                         praeguneRida += 1
                     continue
                 
