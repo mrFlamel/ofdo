@@ -1,38 +1,7 @@
-from datetime import *
-from dateutil.easter import *
-"""
-def arvutaKõikTeenistused(aasta): # tavaline, suur, paast
-    kõik = []
-    
-    # ADVENDIAEG
-    for i in range(8):
-        if date(aasta-1, 12, 24-i).isoweekday() == 7:
-            kõik.append([date(aasta-1, 12, 24-i)-timedelta(weeks=3), "Advendiaja 1. pühapäev", "tavaline"])
-            break
-    for i in range(3):
-        kõik.append([kõik[-1][0]+timedelta(weeks=1), "Advendiaja "+str(2+i)+". pühapäev", "tavaline"])
-    
-    # JÕULUAEG
-    kõik.append([date(aasta-1, 12, 24), "Jõululaupäev", "tavaline"])
-    kõik.append([date(aasta-1, 12, 25), "Esimene jõulupüha", "suur"])
-    kõik.append([date(aasta-1, 12, 26), "Teine jõulupüha", "suur"])
-    if kõik[-4][0]+timedelta(weeks=1) < date(aasta-1, 12, 31):
-        kõik.append([kõik[-1][0]+timedelta(weeks=1), "Jõuluaja 1. pühapäev", "suur"])  
-    
-    
-    
-    ülestõusmispüha = easter(aasta, 3)
-    nelipühad = ülestõusmispüha + timedelta(days=49)
-    
-    print(ülestõusmispüha)
-    print(nelipühad)
-    
-    return kõik
-"""
-
+from datetime import datetime, date, timedelta
+from dateutil.easter import easter
 
 def parseKuupäev(kuupäev):
-    
     try:
         päev = datetime.strptime(kuupäev, "%d.%m.%Y")
     except:
@@ -76,14 +45,6 @@ def leiaTavalised(aasta):
 def paast(aasta):
     ülestõusmispüha = easter(aasta, 3)
     return ülestõusmispüha-timedelta(days=46), ülestõusmispüha
-
-"""
-def järgmineTeenistus():
-    täna = datetime.today().date()
-    for i in arvutaKõikTeenistused(täna.year+1):
-        print(i)
-    
-"""
 
 def leiaÜldAsukohad(kuupäevNumbritega):
     päev = datetime.strptime(kuupäevNumbritega, "%d%m%Y")

@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
 import slaidigeneraatorid as slaidilooja
-import time
 import sys
 import os
 

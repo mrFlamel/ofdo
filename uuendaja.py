@@ -1,12 +1,11 @@
-import requests
+from requests import get, ConnectionError
 import platform
 import os
-import stat
 import sys
 
 def kontrolli_uuendusi(praegune_versioon, sihtkaust):
     try:
-        r = requests.get("https://api.github.com/repos/mrflamel/ofdo/releases/latest")
+        r = get("https://api.github.com/repos/mrflamel/ofdo/releases/latest")
         release_data = r.json()
         
         if release_data["tag_name"] != praegune_versioon:
@@ -24,7 +23,7 @@ def kontrolli_uuendusi(praegune_versioon, sihtkaust):
                 print('Fail "' + filename + '" on juba alla laetud!')
                 sys.exit()
             
-            uus_versioon = requests.get("https://github.com/mrflamel/ofdo/releases/latest/download/" + filename)
+            uus_versioon = get("https://github.com/mrflamel/ofdo/releases/latest/download/" + filename)
             with open(sihtkaust / filename, mode="wb") as file:
                 file.write(uus_versioon.content)
                 
@@ -36,5 +35,5 @@ def kontrolli_uuendusi(praegune_versioon, sihtkaust):
             sys.exit()
             
         
-    except requests.ConnectionError:
+    except ConnectionError:
         return

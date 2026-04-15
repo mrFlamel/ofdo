@@ -8,3 +8,10 @@ odfdo
 python-dateutil
 requests
 charset-normalizer==2.1.0
+
+
+Vajalikud täpsemalt:
+from odfdo import Document, Element, OfficeForms, Paragraph, DrawPage, Style, Span, Frame, Spacer, Tab, List
+from requests import get, ConnectionError
+from datetime import datetime, date, timedelta
+from dateutil.easter import easter

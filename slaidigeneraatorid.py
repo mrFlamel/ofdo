@@ -1,5 +1,9 @@
-from odfdo import *
-
+from odfdo import (
+    Element, OfficeForms, Paragraph, 
+    DrawPage, Style, Span, 
+    Frame, Spacer, Tab, 
+    List
+)
 def setAttributes(element, atribuudid):
     for i in atribuudid:
         element.set_attribute(i, atribuudid[i])

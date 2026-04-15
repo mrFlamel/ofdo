@@ -1,6 +1,6 @@
 from pathlib import Path
-from odfdo import *
-from datetime import *
+from odfdo import Document
+from datetime import datetime, date, timedelta
 import sys
 
 import laulud
@@ -30,7 +30,6 @@ else:
 uuendaja.kontrolli_uuendusi(VERSIOON, TARGET_DIR)
 
 # JÄRGMISE TEENISTUSE ARVUTAMINE
-#kuupäev = pyhad.järgmineTeenistus()
 kuupäevSõnadega = "7. detsembril 2025"
 kuupäevNumbritega = "07122025"
 kellaaeg = "10.00"
