@@ -1,6 +1,6 @@
 /usr/bin/python3 -m venv venv
 
-pyinstaller --onefile  ofdo.py kirjakohad.py laulud.py pühad.py slaidigeneraatorid.py uuendaja.py --add-data=piibel.xml:. --add-data=laulud:laulud --copy-metadata odfdo --collect-all odfdo --hidden-import=odfdo.templates --add-data="stiilid.odp":.
+pyinstaller --onefile ofdo.py kirjakohad.py laulud.py pyhad.py slaidigeneraatorid.py uuendaja.py --add-data=piibel.xml:. --add-data=laulud:laulud --copy-metadata odfdo --collect-all odfdo --add-data="stiilid.odp":. --optimize 2 --exclude-module lxml.objectify
 
 Vajalikud packagid:
 pyinstaller
@@ -15,3 +15,7 @@ from odfdo import Document, Element, OfficeForms, Paragraph, DrawPage, Style, Sp
 from requests import get, ConnectionError
 from datetime import datetime, date, timedelta
 from dateutil.easter import easter
+
+
+from lxml.etree import Element, XPath, _Element, fromstring, tostring, _ElementTree, parse, XMLSyntaxError
+

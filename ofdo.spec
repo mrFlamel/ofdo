@@ -4,7 +4,7 @@ from PyInstaller.utils.hooks import copy_metadata
 
 datas = [('piibel.xml', '.'), ('laulud', 'laulud'), ('stiilid.odp', '.')]
 binaries = []
-hiddenimports = ['odfdo.templates']
+hiddenimports = []
 datas += copy_metadata('odfdo')
 tmp_ret = collect_all('odfdo')
 datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
@@ -19,9 +19,9 @@ a = Analysis(
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
-    excludes=[],
+    excludes=['lxml.objectify'],
     noarchive=False,
-    optimize=0,
+    optimize=2,
 )
 pyz = PYZ(a.pure)
 
@@ -30,7 +30,7 @@ exe = EXE(
     a.scripts,
     a.binaries,
     a.datas,
-    [],
+    [('O', None, 'OPTION'), ('O', None, 'OPTION')],
     name='ofdo',
     debug=False,
     bootloader_ignore_signals=False,

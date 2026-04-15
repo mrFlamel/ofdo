@@ -1,4 +1,4 @@
-import xml.etree.ElementTree as ET
+from xml.etree.ElementTree import parse as xmlParse
 import slaidigeneraatorid as slaidilooja
 import sys
 import os
@@ -8,7 +8,7 @@ def resource_path(relative_path):
         return os.path.join(sys._MEIPASS, relative_path)
     return os.path.join(os.path.abspath("."), relative_path)
 
-tree = ET.parse(resource_path('piibel.xml'))
+tree = xmlParse(resource_path('piibel.xml'))
 piibel = tree.getroot()
 
 vanaTestament = [
