@@ -371,7 +371,7 @@ def arvutaVormindus(lugemine, salmiNumbrid, numbritega=True):#Ps 22,8-10 Jh 16,2
             
             for word in i.split():
                 width = text.measure(ridaArvutamiseks + word + " ")
-                cm = width * (2.54 / dpi)
+                cm = round(width * (2.54 / dpi), 2)
 
                 if cm > 24.95:
                     

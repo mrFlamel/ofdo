@@ -114,7 +114,7 @@ def arvutaTekstiLaius(tekst, font_size):
     root.withdraw()
     _text = tkFont.Font(family='Liberation Sans', size=font_size)
     width = _text.measure(tekst)
-    cm = width * (2.54 / dpi)
+    cm = round(width * (2.54 / dpi), 1)
     return cm
 
 def genereeri(pealkiri, tulemusSlaidid, viimaneNumber, body, document):
