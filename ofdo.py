@@ -324,7 +324,7 @@ viimaneNumber = laulud.genereeri(laul5pealkiri, laul5sõnad, viimaneNumber, body
 slaidilooja.pealkiriMeile(str(viimaneNumber+1), "Kirikupalve", body)
 viimaneNumber += 1
 
-slaidilooja.ühereaTekst(str(viimaneNumber+1), "Sind, Jumal kiidame! Sind, Issand täname!", body)
+slaidilooja.ühereaTekst(str(viimaneNumber+1), "Sind, Jumal, kiidame! Sind, Issand, täname!", body)
 viimaneNumber += 1
 slaidilooja.ühereaTekst(str(viimaneNumber+1), "Kuule meid, armas Issand Jumal!", body)
 viimaneNumber += 1
