@@ -108,7 +108,7 @@ body.clear()
 style_document = Document(STIILID_DIR / STIILID)
 document.delete_styles()
 document.merge_styles_from(style_document)
-qr_url = document.add_file("annetus.png")
+qr_url = document.add_file(STIILID_DIR / "annetus.png")
 
 # KIRJAKOHTADE ÜLDISTE ASUKOHTADE LEIDMINE PRAEGUSE AASTA JÄRGI
 asukoht1, asukoht2, asukoht3 = pyhad.leiaÜldAsukohad(kuupäevNumbritega) # vana_testament, evangeelium, epistel
