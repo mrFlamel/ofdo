@@ -117,15 +117,15 @@ def arvutaTekstiLaius(tekst, font_size):
     cm = round(width * (2.54 / dpi), 1)
     return cm
 
-def genereeri(pealkiri, tulemusSlaidid, viimaneNumber, body, document):
+def genereeri(pealkiri, tulemusSlaidid, viimaneNumber, body, document, qr_url=None):
     font_size = 36
     if arvutaTekstiLaius(pealkiri, font_size) > 24.5:
         while True:
             font_size -= 1
             if arvutaTekstiLaius(pealkiri, font_size) < 24.3:
                 break
-    slaidilooja.uusPealkiri(str(viimaneNumber+1), pealkiri, str(font_size)+"pt", body, document)
+    slaidilooja.uusPealkiri(str(viimaneNumber+1), pealkiri, str(font_size)+"pt", body, qr_url, document)
     for i in range(int(len(tulemusSlaidid)/2)):
-        slaidilooja.uusSalm(str(viimaneNumber+2+i), tulemusSlaidid[i*2+1], pealkiri, "Salm "+tulemusSlaidid[i*2], body)
+        slaidilooja.uusSalm(str(viimaneNumber+2+i), tulemusSlaidid[i*2+1], pealkiri, "Salm "+tulemusSlaidid[i*2], qr_url, body)
     
     return int(len(tulemusSlaidid)/2+viimaneNumber+1)

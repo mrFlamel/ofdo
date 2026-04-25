@@ -318,7 +318,7 @@ viimaneNumber = laulud.genereeri(laul3pealkiri, laul3sõnad, viimaneNumber, body
 viimaneNumber = laulud.genereeri(laul4pealkiri, laul4sõnad, viimaneNumber, body, document)
 
 # PALVELAUL
-viimaneNumber = laulud.genereeri(laul5pealkiri, laul5sõnad, viimaneNumber, body, document)
+viimaneNumber = laulud.genereeri(laul5pealkiri, laul5sõnad, viimaneNumber, body, document, qr_url=qr_url)
 
 
 # KIRIKUPALVE

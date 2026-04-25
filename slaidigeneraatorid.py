@@ -16,6 +16,28 @@ def setOfficeForms(page):
         })
     page.append(officeForms)
 
+def create_qr_code(qr_url, page):
+    # QR-KOOD
+    qr_code = DrawImage()
+    qr_code.append(Paragraph())
+    setAttributes(qr_code, {
+        'xlink:href': qr_url,
+        'xlink:type': 'simple',
+        'xlink:show': 'embed',
+        'xlink:actuate': 'onLoad',
+        'draw:mime-type': 'image/png'
+        })
+    frame = Frame.image_frame(qr_code)
+    setAttributes(frame, {
+        'draw:text-style-name': 'P9',
+        'draw:layer': 'layout',
+        'svg:width': '2.548cm',
+        'svg:height': '2.566cm',
+        'svg:x': '24.052cm',
+        'svg:y': '0.79cm'
+        })
+    page.append(frame)
+
 def tumeTaustAll(page, ridade_arv):
     shape = Element.from_tag('draw:custom-shape')
     
@@ -62,7 +84,7 @@ def tumeTaustAll(page, ridade_arv):
 
 
 
-def uusPealkiri(slaidi_number, tekst, font_size, body, document):
+def uusPealkiri(slaidi_number, tekst, font_size, body, qr_url, document):
     page = DrawPage()
     setAttributes(page, {
         'draw:name': 'page'+slaidi_number,
@@ -117,12 +139,16 @@ def uusPealkiri(slaidi_number, tekst, font_size, body, document):
     text.append(span)
     shape.append(text)
     page.append(shape)
+
+    # QR-KOOD
+    if qr_url:
+        create_qr_code(qr_url, page)
     
     # ÜHENDA SLAID ÜLEJÄÄNUD ESITLUSEGA
     body.append(page)
 
 
-def uusSalm(slaidi_number, tekst, pealkiri, number_txt, body):
+def uusSalm(slaidi_number, tekst, pealkiri, number_txt, qr_url, body):
     page = DrawPage()
     setAttributes(page, {
         'draw:name': 'page'+slaidi_number,
@@ -178,6 +204,10 @@ def uusSalm(slaidi_number, tekst, pealkiri, number_txt, body):
         'svg:y': '12.964cm'
         })
     page.append(frame)
+
+    # QR-KOOD
+    if qr_url:
+        create_qr_code(qr_url, page)
     
     # ÜHENDA SLAID ÜLEJÄÄNUD ESITLUSEGA
     body.append(page)
@@ -731,25 +761,7 @@ def avaleht(slaidi_number, tiitel, laulud, lugemised, qr_url, body):
 
 
     # QR-KOOD
-    qr_code = DrawImage()
-    qr_code.append(Paragraph())
-    setAttributes(qr_code, {
-        'xlink:href': qr_url,
-        'xlink:type': 'simple',
-        'xlink:show': 'embed',
-        'xlink:actuate': 'onLoad',
-        'draw:mime-type': 'image/png'
-        })
-    frame = Frame.image_frame(qr_code)
-    setAttributes(frame, {
-        'draw:text-style-name': 'P9',
-        'draw:layer': 'layout',
-        'svg:width': '2.548cm',
-        'svg:height': '2.566cm',
-        'svg:x': '24.052cm',
-        'svg:y': '0.79cm'
-        })
-    page.append(frame)
+    create_qr_code(qr_url, page)
     
     
     # ÜHENDA SLAID ÜLEJÄÄNUD ESITLUSEGA
