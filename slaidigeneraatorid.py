@@ -2,7 +2,7 @@ from odfdo import (
     Element, OfficeForms, Paragraph, 
     DrawPage, Style, Span, 
     Frame, Spacer, Tab, 
-    List
+    List, DrawImage
 )
 def setAttributes(element, atribuudid):
     for i in atribuudid:
@@ -430,7 +430,7 @@ def pealkiriMeile(slaidi_number, pealkiri, body):
     body.append(page)
 
 
-def avaleht(slaidi_number, tiitel, laulud, lugemised, body):
+def avaleht(slaidi_number, tiitel, laulud, lugemised, qr_url, body):
     page = DrawPage()
     setAttributes(page, {
         'draw:name': 'page'+slaidi_number,
@@ -462,7 +462,7 @@ def avaleht(slaidi_number, tiitel, laulud, lugemised, body):
         })
     shape.append(geom)
     page.append(shape)
-    
+
     
     # TIITEL
     elemendid = []
@@ -728,6 +728,28 @@ def avaleht(slaidi_number, tiitel, laulud, lugemised, body):
         })
     shape.append(geom)
     page.append(shape)
+
+
+    # QR-KOOD
+    qr_code = DrawImage()
+    qr_code.append(Paragraph())
+    setAttributes(qr_code, {
+        'xlink:href': qr_url,
+        'xlink:type': 'simple',
+        'xlink:show': 'embed',
+        'xlink:actuate': 'onLoad',
+        'draw:mime-type': 'image/png'
+        })
+    frame = Frame.image_frame(qr_code)
+    setAttributes(frame, {
+        'draw:text-style-name': 'P9',
+        'draw:layer': 'layout',
+        'svg:width': '2.548cm',
+        'svg:height': '2.566cm',
+        'svg:x': '24.052cm',
+        'svg:y': '0.79cm'
+        })
+    page.append(frame)
     
     
     # ÜHENDA SLAID ÜLEJÄÄNUD ESITLUSEGA

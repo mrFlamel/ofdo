@@ -1,6 +1,6 @@
 /usr/bin/python3 -m venv venv
 
-pyinstaller --onefile ofdo.py kirjakohad.py laulud.py pyhad.py slaidigeneraatorid.py uuendaja.py --add-data=piibel.xml:. --add-data=laulud:laulud --copy-metadata odfdo --collect-all odfdo --add-data="stiilid.odp":. --optimize 2 --exclude-module lxml.objectify
+pyinstaller --onefile ofdo.py kirjakohad.py laulud.py pyhad.py slaidigeneraatorid.py uuendaja.py --add-data=piibel.xml:. --add-data=laulud:laulud --add-data=annetus.png:. --copy-metadata odfdo --collect-all odfdo --add-data="stiilid.odp":. --optimize 2 --exclude-module lxml.objectify
 
 Vajalikud packagid:
 pyinstaller

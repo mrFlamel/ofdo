@@ -2,7 +2,7 @@
 from PyInstaller.utils.hooks import collect_all
 from PyInstaller.utils.hooks import copy_metadata
 
-datas = [('piibel.xml', '.'), ('laulud', 'laulud'), ('stiilid.odp', '.')]
+datas = [('piibel.xml', '.'), ('laulud', 'laulud'), ('stiilid.odp', '.'), ('annetus.png', '.')]
 binaries = []
 hiddenimports = []
 datas += copy_metadata('odfdo')

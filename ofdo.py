@@ -108,6 +108,7 @@ body.clear()
 style_document = Document(STIILID_DIR / STIILID)
 document.delete_styles()
 document.merge_styles_from(style_document)
+qr_url = document.add_file("annetus.png")
 
 # KIRJAKOHTADE ÜLDISTE ASUKOHTADE LEIDMINE PRAEGUSE AASTA JÄRGI
 asukoht1, asukoht2, asukoht3 = pyhad.leiaÜldAsukohad(kuupäevNumbritega) # vana_testament, evangeelium, epistel
@@ -170,7 +171,7 @@ lauludtekstid = ['Tänased laulud:',
                  [laul5pealkiri.split(".")[0], laul5salmidearv],
                  [laul6pealkiri.split(".")[0], laul6salmidearv]]
 lugemised = ['Kirjakohad:', 'Lektsioonid:', lugemine1viide, lugemine2viide, 'Jutlus:', lugemine3viide]
-slaidilooja.avaleht(str(viimaneNumber+1), tiitel, lauludtekstid, lugemised, body)  
+slaidilooja.avaleht(str(viimaneNumber+1), tiitel, lauludtekstid, lugemised, qr_url, body)  
 viimaneNumber += 1
 
 # ALGUSLAUL
