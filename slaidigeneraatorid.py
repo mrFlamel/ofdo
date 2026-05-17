@@ -716,7 +716,6 @@ def avaleht(slaidi_number, tiitel, laulud, lugemised, qr_url, body):
             shape.append(text)
             continue
     
-    shape.append(text)
     geom = Element.from_tag('draw:enhanced-geometry')
     setAttributes(geom, {
         'svg:viewBox': '0 0 21600 21600',
