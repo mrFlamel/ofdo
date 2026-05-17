@@ -854,7 +854,7 @@ def lõpuTiitrid(slaidi_number, tiitel, peategijad, tehnikatiim, vöörmündrid,
                 setAttributes(span, {'text:style-name': 'T25'})
             text.append(span)
         header.append(text)
-        textList.append(header)
+    textList.append(header)
     frame = Frame.text_frame(textList)
     setAttributes(frame, {
         'presentation:style-name': 'pr4',
