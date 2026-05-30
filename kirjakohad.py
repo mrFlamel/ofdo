@@ -190,6 +190,20 @@ def poolita(poolitatavRida):
     except:
         pass
     
+    # POOLITAMINE DIALOOGI LÕPETAVAST HÜÜUMÄRGIST
+    try:
+        tagasi1, tagasi2 = poolitaMärgiJärgi('!"', poolitatavRida, lubatudLõikamiseAla)
+        return tagasi1, tagasi2
+    except:
+        pass
+
+    # POOLITAMINE DIALOOGI LÕPETAVAST KÜSIMÄRGIST
+    try:
+        tagasi1, tagasi2 = poolitaMärgiJärgi('?"', poolitatavRida, lubatudLõikamiseAla)
+        return tagasi1, tagasi2
+    except:
+        pass
+    
     # POOLITAMINE PUNKTIST
     try:
         tagasi1, tagasi2 = poolitaMärgiJärgi(". ", poolitatavRida, lubatudLõikamiseAla)
