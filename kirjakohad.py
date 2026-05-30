@@ -48,26 +48,30 @@ def ava(otsitav):
     
     testament = None
     raamatuNumber = None
+    raamatIlus = ""
     for i in vanaTestament:
         for l in i:
-            if l == raamat:
+            if l.lower() == raamat.lower():
                 testament = 0
                 raamatuNumber = vanaTestament.index(i)
                 üldine_asukoht = "vana_testament"
+                raamatIlus = str(l) + " " + vahemik
                 break
     for i in evangeelium:
         for l in i:
-            if l == raamat:
+            if l.lower() == raamat.lower():
                 testament = 1
                 raamatuNumber = evangeelium.index(i)
                 üldine_asukoht = "evangeelium"
+                raamatIlus = str(l) + " " + vahemik
                 break
     for i in epistel:
         for l in i:
-            if l == raamat:
+            if l.lower() == raamat.lower():
                 testament = 1
                 raamatuNumber = 4 + epistel.index(i)
                 üldine_asukoht = "epistel"
+                raamatIlus = str(l) + " " + vahemik
                 break
     if testament == None:
         raise Exception("Tundmatu piibliraamatu lühend " + raamat)
@@ -131,7 +135,7 @@ def ava(otsitav):
         if "'" in i:
             arvutatavTulemus[index] = i.replace("'", '”')   
     
-    return arvutatavTulemus, salmiList, üldine_asukoht
+    return arvutatavTulemus, salmiList, üldine_asukoht, raamatIlus
 
 
 def poolita(poolitatavRida):
@@ -450,9 +454,9 @@ def kontrolli(küsimus, sisend, eeldatav_asukoht=False, tühiSobib=False):
             if asukoht.endswith("."):
                 asukoht = asukoht[:-1]
         
-            arvutatavTulemus, salmiList, üldine_asukoht = ava(asukoht)
-            if len(asukoht.split(":")) == 1:
-                asukoht = asukoht.split(",")[0]+":"+",".join(asukoht.split(",")[1:])
+            arvutatavTulemus, salmiList, üldine_asukoht, raamatIlus = ava(asukoht)
+            if len(raamatIlus.split(":")) == 1:
+                raamatIlus = raamatIlus.split(",")[0]+":"+",".join(raamatIlus.split(",")[1:])
             else:
                 pass
             
@@ -466,6 +470,6 @@ def kontrolli(küsimus, sisend, eeldatav_asukoht=False, tühiSobib=False):
                         raise Exception("Küsin kirjakohta uuesti...")
             
             #       [kirjakoht]        [2, 3]  Lk 1:2-3  evangeelium    
-            return arvutatavTulemus, salmiList, asukoht.strip(), üldine_asukoht
+            return arvutatavTulemus, salmiList, raamatIlus.strip(), üldine_asukoht
         except Exception as e:
             print(e)
