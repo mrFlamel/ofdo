@@ -8,6 +8,7 @@ odfdo
 python-dateutil
 requests
 charset-normalizer==2.1.0
+tqdm
 
 
 Vajalikud täpsemalt:
@@ -15,6 +16,7 @@ from odfdo import Document, Element, OfficeForms, Paragraph, DrawPage, Style, Sp
 from requests import get, ConnectionError
 from datetime import datetime, date, timedelta
 from dateutil.easter import easter
+from tqdm import tqdm
 
 
 from lxml.etree import Element, XPath, _Element, fromstring, tostring, _ElementTree, parse, XMLSyntaxError

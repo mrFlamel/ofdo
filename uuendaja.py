@@ -2,6 +2,7 @@ from requests import get, ConnectionError
 import platform
 import os
 import sys
+from tqdm import tqdm
 
 def kontrolli_uuendusi(praegune_versioon, sihtkaust):
     try:
@@ -23,9 +24,16 @@ def kontrolli_uuendusi(praegune_versioon, sihtkaust):
                 print('Fail "' + filename + '" on juba alla laetud!')
                 sys.exit()
             
-            uus_versioon = get("https://github.com/mrflamel/ofdo/releases/latest/download/" + filename)
-            with open(sihtkaust / filename, mode="wb") as file:
-                file.write(uus_versioon.content)
+            uus_versioon = get("https://github.com/mrflamel/ofdo/releases/latest/download/" + filename, stream=True)
+            total_size = int(uus_versioon.headers.get("content-length", 0))
+            block_size = 1024
+            with tqdm(total=total_size, unit="B", unit_scale=True) as progress_bar:
+                with open(sihtkaust / filename, "wb") as file:
+                    for data in uus_versioon.iter_content(block_size):
+                        progress_bar.update(len(data))
+                        file.write(data)
+            if total_size != 0 and progress_bar.n != total_size:
+                raise RuntimeError("Faili allalaadimine ebaõnnestus :(")
                 
             mode = os.stat(sihtkaust / filename).st_mode
             mode |= (mode & 0o444) >> 2
