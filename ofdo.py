@@ -10,7 +10,7 @@ import pyhad
 import uuendaja
 
 VERSIOON = "v109"
-PYTHON = True # False - selleks, et python compilida; True - selleks, et testida pythonit
+PYTHON = False # False - selleks, et python compilida; True - selleks, et testida pythonit
 
 
 # LIPPUDE HANKIMINE
@@ -98,7 +98,7 @@ print("Jumalateenistus " + korrad_välja_kirjutatud[korrad.index(kord)] + kuupä
 print("************************************************************\n")
 
 # SLAIDI TEGEMISEKS VAJALIKUD ANDMED
-TARGET = kuupäevNumbritega + " Jumalateenistus (Ofdo).odp"
+TARGET = kuupäevNumbritega + " Jumalateenistus.odp"
 STIILID = "stiilid.odp"
 STIILID_DIR = Path(__file__).parent
 viimaneNumber = 0
