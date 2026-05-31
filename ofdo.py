@@ -227,7 +227,7 @@ else:
     viimaneNumber += 1
 
     if kord == "suur":
-        slaidilooja.pealkiriMeile(str(viimaneNumber+1), "[Koor laulab Laudamust]", body)
+        slaidilooja.pealkiriMeile(str(viimaneNumber+1), "[Koor või õpetaja laulab Laudamust]", body)
         viimaneNumber += 1
     
     liturgia = ["Au, kiitus olgu igavest' Kolmainu Jumalale, ", "et Tema suurest heldusest meid avitanud jälle."]
