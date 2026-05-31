@@ -638,7 +638,7 @@ def avaleht(slaidi_number, tiitel, laulud, lugemised, qr_url, body):
             span = Span()
             setAttributes(span, {'text:style-name': 'T3'})
             spacer = Spacer()
-            setAttributes(spacer, {'text:c': '5'})
+            setAttributes(spacer, {'text:c': '6'})
             span.append(spacer)
             text.append(span)
             
