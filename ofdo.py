@@ -2,6 +2,7 @@ from pathlib import Path
 from odfdo import Document
 from datetime import datetime, date, timedelta
 import sys
+import multiprocessing
 
 import laulud
 import kirjakohad
@@ -15,6 +16,7 @@ PYTHON = False # False - selleks, et python compilida; True - selleks, et testid
 
 # LIPPUDE HANKIMINE
 import argparse
+multiprocessing.freeze_support()
 parser = argparse.ArgumentParser(prog="ofdo", description="Ofdo on automatiseeritud süsteem Pauluse kiriku jumalateenistuste ülekannete slaidide genereerimiseks.")
 parser.add_argument('-p', '--päev', help="Genereeritava jumalateenistuse kuupäev (nt 07.12.2025)", metavar="VALIK")
 parser.add_argument('-k', '--kord', help="Genereeritava jumalateenistuse slaidide soovitud kord (tavaline/suur/paast)", metavar="VALIK")
