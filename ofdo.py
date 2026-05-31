@@ -10,7 +10,7 @@ import pyhad
 import uuendaja
 
 VERSIOON = "v109"
-PYTHON = True # False - selleks, et python compilida; True - selleks, et testida pythonit
+PYTHON = False # False - selleks, et python compilida; True - selleks, et testida pythonit
 
 
 # LIPPUDE HANKIMINE
@@ -334,18 +334,17 @@ viimaneNumber += 1
 liturgia = ["Oh Jeesus Krist, oh kuule mind, oh kuule mind!", "Ma tahan ikka kiita Sind! Aamen."]
 slaidilooja.kahereaTekst(str(viimaneNumber+1), liturgia, body)
 viimaneNumber += 1
+
+
+# ARMULAUALITURGIA
+slaidilooja.pealkiriMeile(str(viimaneNumber+1), "Armulaualiturgia", body)
+viimaneNumber += 1
 slaidilooja.ühereaTekst(str(viimaneNumber+1), "Ja sinu vaimuga!", body)
 viimaneNumber += 1
 slaidilooja.ühereaTekst(str(viimaneNumber+1), "Meie ülendame südamed Issanda poole.", body)
 viimaneNumber += 1
 slaidilooja.ühereaTekst(str(viimaneNumber+1), "See on õige ja kohus.", body)
 viimaneNumber += 1
-
-
-# SANCTUS
-slaidilooja.pealkiriMeile(str(viimaneNumber+1), "Sanctus", body)
-viimaneNumber += 1
-
 liturgia = ["Püha, püha, püha on meie Jumal, me Issand Seebaot.", "Taevas ja maa, taevas ja maa on täis Tema au!"]
 slaidilooja.kahereaTekst(str(viimaneNumber+1), liturgia, body)
 viimaneNumber += 1
