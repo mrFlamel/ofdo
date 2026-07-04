@@ -11,7 +11,14 @@ def kontrolli_uuendusi(praegune_versioon, sihtkaust):
         
         if release_data["tag_name"] != praegune_versioon:
             print("UUS VERSIOON " + release_data["tag_name"] + " ON SAADAVAL!")
-            print('Muudatuste nimekiri: ' + release_data["html_url"])
+
+            # MUUDATUSTE NIMEKIRI
+            muudatused = release_data["body"]
+            if platform.system() == "Linux" or platform.system() == "Darwin":
+                print("\n" + muudatused.replace("\r\n", "\n") + "\n")
+            elif platform.system() == "Windows":
+                print("\r\n" + muudatused + "\r\n")
+
             print("Laen alla uue versiooni " + release_data["tag_name"] + " praeguse " + praegune_versioon + " asemel...")
             if platform.system() == "Linux":
                 filename = "ofdo-" + release_data["tag_name"] + "-linux"
