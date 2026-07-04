@@ -1,4 +1,3 @@
-import time
 import slaidigeneraatorid as slaidilooja
 
 
@@ -70,18 +69,15 @@ def küsiKasutajalt(number, sisend):
                 pealkiri, salmid = extract(laul[0])
             if len(laul) == 1:
                 print("Vale vorming!")
-                time.sleep(2)
                 continue
             
             if len(laul[1].split("-")) == 1:
                 if len(salmid) < int(laul[1]):
                     print("Salmi number " + laul[1] + " ei eksisteeri!")
-                    time.sleep(2)
                     continue
             else:
                 if len(salmid) < int(laul[1].split("-")[-1]):
                     print("Salmi number " + laul[1].split("-")[-1] + " ei eksisteeri!")
-                    time.sleep(2)
                     continue
             
             break
