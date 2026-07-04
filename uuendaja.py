@@ -16,16 +16,12 @@ def kontrolli_uuendusi(praegune_versioon, sihtkaust):
             muudatused = release_data["body"]
             if platform.system() == "Linux" or platform.system() == "Darwin":
                 print("\n" + muudatused.replace("\r\n", "\n") + "\n")
-            elif platform.system() == "Windows":
-                print("\r\n" + muudatused + "\r\n")
 
             print("Laen alla uue versiooni " + release_data["tag_name"] + " praeguse " + praegune_versioon + " asemel...")
             if platform.system() == "Linux":
                 filename = "ofdo-" + release_data["tag_name"] + "-linux"
             elif platform.system() == "Darwin":
                 filename = "ofdo-" + release_data["tag_name"] + "-macos"
-            elif platform.system() == "Windows":
-                filename = "ofdo-" + release_data["tag_name"] + "-win.exe"
             
             if os.path.isfile(sihtkaust / filename):
                 print('Fail "' + filename + '" on juba alla laetud!')
