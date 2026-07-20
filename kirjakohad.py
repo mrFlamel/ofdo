@@ -476,6 +476,10 @@ def kontrolli(küsimus, sisend, eeldatav_asukoht=False, tühiSobib=False):
             
             if eeldatav_asukoht:
                 if eeldatav_asukoht != üldine_asukoht:
+                    if üldine_asukoht == "vana_testament":
+                        üldine_asukoht = "vana testament"
+                    if eeldatav_asukoht == "vana_testament":
+                        eeldatav_asukoht = "vana testament"
                     print('Sisestati kirjakoht asukohast "' + üldine_asukoht + '", kuigi eeldati hoopis asukohast "' + eeldatav_asukoht + '".')
                     tempVastus = input("Kas sa oled kindel (j/E): ").lower()
                     if tempVastus == "j":
