@@ -1,4 +1,4 @@
-434. Taevaisa perekonda   
+434. Taevaisa perekonda
 
 Taevaisa perekonda
 lapsed kõik küll kuuluvad.
