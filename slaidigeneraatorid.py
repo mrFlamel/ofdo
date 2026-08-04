@@ -467,7 +467,7 @@ def avaleht(slaidi_number, tiitel, laulud, lugemised, qr_url, body):
     page = DrawPage()
     setAttributes(page, {
         'draw:name': 'page'+slaidi_number,
-        'draw:style-name': 'dp1',
+        'draw:style-name': 'dp4',
         'draw:master-page-name': 'Default',
         'presentation:presentation-page-layout-name': 'AL1T19'
         })
