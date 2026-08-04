@@ -388,13 +388,12 @@ def arvutaVormindus(lugemine, salmiNumbrid, numbritega=True):#Ps 22,8-10 Jh 16,2
             slaididPraeguneRida.append("")
             
             for word in i.split():
-                width = text.measure(ridaArvutamiseks + word + " ")
+                width = text.measure(ridaArvutamiseks + word)
                 cm = round(width * (2.54 / dpi), 2)
 
                 if cm > 24.95:
                     
                     if praeguneRida == 2:
-                        
                         esimenePool, teinePool = poolita(slaididPraeguneRida)
                         if type(teinePool[-1]) == str:
                             teinePool[-1] = teinePool[-1] + word + " "
