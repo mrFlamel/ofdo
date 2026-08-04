@@ -240,7 +240,7 @@ def poolita(poolitatavRida):
         pass
     
     # POOLITAMINE KOMAGA SIDESÕNA JUUREST
-    sidesõnad = [', et', ', sest', ', aga', ', vaid', ', kuid', ', ent', ', kuna', ', siis', ', kes', ', mistõttu', ', mispärast', ", kuigi"]
+    sidesõnad = [', et', ', sest', ', aga', ', vaid', ', kuid', ', ent', ', kuna', ', siis', ', kes', ', mistõttu', ', mispärast', ", kuigi", ", ja"]
     for index, i in enumerate(reversed(poolitatavRida)):
         if type(i) == str:
             variant = max((item for item in sidesõnad if item in i),
