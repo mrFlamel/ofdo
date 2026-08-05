@@ -142,23 +142,68 @@ if laul2pealkiri == laul3pealkiri:
     laul3tekstid = [laul3salmidearv]
 
 if sisend[0] == False:
-    jutlustaja = input("Jutlustas (koos tiitliga, nt õp): ").split()
+    # TEGIJATE NIMEDE KÜSIMINE
+    jutlustaja = input("Jutlustas (koos tiitliga, nt õp): ")
+    jutlustaja = {
+        "kristjan": "õp Kristjan Luhamets",
+        "joel": "piiskop Joel Luhamets",
+    }.get(jutlustaja.lower(), jutlustaja).split()
     if len(jutlustaja) == 0:
         jutlustaja = ['++', '++++']
     elif len(jutlustaja) == 1:
         jutlustaja = ['', jutlustaja[0]]
-    orelil = input("Orelil: ") or "+++"
-    kaamerad = (input("Kaameraid juhtis: ") or "+++") + " "
-    heli = (input("Heli eest vastutas: ") or "+++") + " "
-    slaiditegija = (input("Slaide liigutas: ") or "+++") + " "
-    vöörmünder1 = input("1. vöörmünder: ") or "+++"
-    vöörmünder2 = input("2. vöörmünder: ") or "+++"
+
+    orelil = input("Orelil: ")
+    orelil = {
+        "anna": "Anna Humal",
+        "katrin": "Katrin Aller",
+        "alli": "Alli Selliov",
+    }.get(orelil.lower(), orelil) or "+++"
+
+    tehnikaruum = {
+        "kristen": "Kristen Hurt",
+        "heidi": "Heidi Taveter",
+        "kuldar": "Kuldar Taveter",
+        "jakob": "Jakob Luhamets",
+        "meeli": "Meeli Pärtelpoeg",
+        "ago": "Ago Pärtelpoeg",
+        "randon": "Randon Värsi",
+        "johannes": "Johannes Ots",
+        "helene": "Helene Luhamets",
+        "mihkel": "Mihkel Luhamets",
+        "mareli": "Mareli Pärtelpoeg",
+        "olev": "Olev Põld",}
+    kaamerad = input("Kaameraid juhtis: ")
+    kaamerad = (tehnikaruum.get(kaamerad.lower(), kaamerad) or "+++") + " "
+    heli = input("Heli eest vastutas: ")
+    heli = (tehnikaruum.get(heli.lower(), heli) or "+++") + " "
+    slaiditegija = input("Slaide liigutas: ")
+    slaiditegija = (tehnikaruum.get(slaiditegija.lower(), slaiditegija) or "+++") + " "
+
+    vöörmündrid = {
+        "paul": "Paul Austin",
+        "siim": "Siim Barkala",
+        "raul": "Raul Ertmann",
+        "kalle": "Kalle Kepler",
+        "talis": "Talis Mölder",
+        "malte": "Malte Neubarth",
+        "eino": "Eino Poltan",
+        "fred": "Fred Raju",
+        "maksim": "Maksim Tubin",
+        "aimur": "Aimur Laidmets",
+        "rein": "Rein Toomla",
+        "janek": "Janek Villak",}
+    vöörmünder1 = input("1. vöörmünder: ")
+    vöörmünder1 = vöörmündrid.get(vöörmünder1.lower(), vöörmünder1) or "+++"
+    vöörmünder2 = input("2. vöörmünder: ")
+    vöörmünder2 = vöörmündrid.get(vöörmünder2.lower(), vöörmünder2) or "+++"
+
 else:
     jutlustaja = ['++', '+++']
     orelil = "+++"
-    kaamerad = "+++"
-    heli = "+++"
-    slaiditegija = "+++"
+    kaamerad = "+++ "
+    heli = "+++ "
+    slaiditegija = "+++ "
     vöörmünder1 = "+++"
     vöörmünder2 = "+++"
 
