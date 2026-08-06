@@ -389,9 +389,9 @@ def arvutaVormindus(lugemine, salmiNumbrid, numbritega=True):#Ps 22,8-10 Jh 16,2
             
             for word in i.split():
                 width = text.measure(ridaArvutamiseks + word)
-                cm = round(width * (2.54 / dpi), 2)
-
-                if cm > 25.10:
+                cm = round(width * (2.54 / dpi), 1)
+                
+                if cm >= 24.8:
                     
                     if praeguneRida == 2:
                         esimenePool, teinePool = poolita(slaididPraeguneRida)

@@ -11,7 +11,7 @@ import pyhad
 import uuendaja
 
 VERSIOON = "v111"
-PYTHON = False # False - selleks, et python compilida; True - selleks, et testida pythonit
+PYTHON = True # False - selleks, et python compilida; True - selleks, et testida pythonit
 
 
 # LIPPUDE HANKIMINE
