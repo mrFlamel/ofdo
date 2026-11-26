@@ -3,7 +3,7 @@
 
 
 ## Kuidas see töötab?
-1. Käivitades leiab programm leiab järgmise teenistuse kuupäeva, kellaaja ja liturgilise korra. Vajadusel kasutab selleks kasutaja antud lippe (-h flags).
+1. Käivitades leiab programm järgmise teenistuse kuupäeva, kellaaja ja liturgilise korra. Vajadusel kasutab selleks kasutaja antud lippe (-h flags).
 2. Seejärel saab kasutaja sisestada vajalikud andmed. Iga uut numbrit või kirjakohta sisestades otsib programm selle üles, et kontrollida, kas see eksisteerib.
 3. Lõpuks hakkab programm slaide ühekaupa genereerima, kasutades välja otsitud laule ja kirjakohti eelmisest punktist. Kui tekib olukord, kus programm ei oska kirjakohta järgmisele slaidile poolitada, siis küsib see kasutaja nõu.
 4. Slaidid salvestatakse programmiga samasse asukohta.
